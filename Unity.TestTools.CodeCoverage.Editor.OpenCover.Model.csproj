@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{2E454AD1-D426-B77B-559D-2B68D6673608}</ProjectGuid>
+    <ProjectGuid>{2966B025-7D94-321D-DD76-973C5B88B829}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.TestTools.CodeCoverage.Editor.OpenCover.Model</AssemblyName>
@@ -979,19 +979,19 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{3A904581-9021-C472-C144-578FCC6D30D7}</Project>
+      <Project>{D57534E3-20B8-BFA3-A808-0E7C140217E6}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{5409B77B-F7B7-5119-A55D-82C4FEFC9BA3}</Project>
+      <Project>{6C09D662-B52A-E74E-AE80-83BC29A3D71F}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{B260F541-9928-9778-CB45-CB3156C81B53}</Project>
+      <Project>{FF59DA2E-BAE8-149B-1557-287FDBE5DC7C}</Project>
       <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
-      <Project>{F748D9D9-8ABD-C35D-06E6-C5E2F42F3D07}</Project>
+      <Project>{A5636320-A3ED-4497-6031-3447877C1C8C}</Project>
       <Name>UnityEditor.TestRunner</Name>
     </ProjectReference>
   </ItemGroup>
