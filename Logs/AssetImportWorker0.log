@@ -15,7 +15,7 @@ C:/Users/User/TODO/UNITY/REPOSITORIOS/ProgramacionGrafica
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49676
+50901
 Successfully changed project path to: C:/Users/User/TODO/UNITY/REPOSITORIOS/ProgramacionGrafica
 C:/Users/User/TODO/UNITY/REPOSITORIOS/ProgramacionGrafica
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/User/TODO/UNITY/REPOSITORIOS/ProgramacionGrafica
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [2084] Host "[IP] 10.100.115.91 [Port] 0 [Flags] 2 [Guid] 519878269 [EditorId] 519878269 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-U9FQ2HB) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [15128] Host "[IP] 10.100.115.91 [Port] 0 [Flags] 2 [Guid] 3765659952 [EditorId] 3765659952 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-U9FQ2HB) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [2084] Host "[IP] 10.100.115.91 [Port] 0 [Flags] 2 [Guid] 519878269 [EditorId] 519878269 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-U9FQ2HB) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [15128] Host "[IP] 10.100.115.91 [Port] 0 [Flags] 2 [Guid] 3765659952 [EditorId] 3765659952 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-U9FQ2HB) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
-Refreshing native plugins compatible for Editor in 7.67 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 8.70 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.16f1 (d2c21f0ef2f1)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/Resources/UnitySubsystems
@@ -72,43 +72,43 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56772
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56076
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004478 seconds.
-- Loaded All Assemblies, in  0.256 seconds
+Registered in 0.004836 seconds.
+- Loaded All Assemblies, in  0.249 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.189 seconds
-Domain Reload Profiling: 443ms
+- Finished resetting the current domain, in  0.182 seconds
+Domain Reload Profiling: 430ms
 	BeginReloadAssembly (80ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (0ms)
+		CreateAndSetChildDomain (1ms)
 	RebuildCommonClasses (26ms)
 	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (43ms)
-	LoadAllAssembliesAndSetupDomain (99ms)
-		LoadAssemblies (79ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (93ms)
+		LoadAssemblies (78ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (97ms)
-			TypeCache.Refresh (96ms)
-				TypeCache.ScanAssembly (85ms)
+		AnalyzeDomain (92ms)
+			TypeCache.Refresh (91ms)
+				TypeCache.ScanAssembly (81ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (189ms)
+	FinalizeReload (183ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (147ms)
+		SetupLoadedEditorAssemblies (141ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (6ms)
 			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (1ms)
-			ProcessInitializeOnLoadAttributes (101ms)
+			ProcessInitializeOnLoadAttributes (96ms)
 			ProcessInitializeOnLoadMethodAttributes (32ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
@@ -117,52 +117,52 @@ Domain Reload Profiling: 443ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.469 seconds
-Refreshing native plugins compatible for Editor in 3.22 ms, found 4 plugins.
+- Loaded All Assemblies, in  0.475 seconds
+Refreshing native plugins compatible for Editor in 3.58 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.413 seconds
-Domain Reload Profiling: 879ms
-	BeginReloadAssembly (101ms)
+- Finished resetting the current domain, in  0.417 seconds
+Domain Reload Profiling: 890ms
+	BeginReloadAssembly (102ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (14ms)
-	RebuildCommonClasses (22ms)
+		CreateAndSetChildDomain (15ms)
+	RebuildCommonClasses (23ms)
 	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (30ms)
-	LoadAllAssembliesAndSetupDomain (307ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (311ms)
 		LoadAssemblies (237ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (131ms)
-			TypeCache.Refresh (114ms)
-				TypeCache.ScanAssembly (105ms)
-			ScanForSourceGeneratedMonoScriptInfo (12ms)
+		AnalyzeDomain (133ms)
+			TypeCache.Refresh (117ms)
+				TypeCache.ScanAssembly (107ms)
+			ScanForSourceGeneratedMonoScriptInfo (11ms)
 			ResolveRequiredComponents (2ms)
-	FinalizeReload (413ms)
+	FinalizeReload (417ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (292ms)
+		SetupLoadedEditorAssemblies (295ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (4ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (43ms)
-			ProcessInitializeOnLoadAttributes (222ms)
-			ProcessInitializeOnLoadMethodAttributes (14ms)
+			BeforeProcessingInitializeOnLoad (42ms)
+			ProcessInitializeOnLoadAttributes (225ms)
+			ProcessInitializeOnLoadMethodAttributes (15ms)
 			AfterProcessingInitializeOnLoad (5ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
 Shader 'ASESampleShaders/Terrain/TerrainSnowCoverageFirstPass': dependency 'BaseMapShader' shader 'ASESampleShaders/TerrainBase' not found
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 6.68 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 4.17 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4290 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 43 unused Assets / (61.4 KB). Loaded Objects now: 4754.
-Memory consumption went from 273.1 MB to 273.0 MB.
-Total: 2.316700 ms (FindLiveObjects: 0.209000 ms CreateObjectMapping: 0.080400 ms MarkObjects: 1.942200 ms  DeleteObjects: 0.084200 ms)
+Unloading 4291 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (61.2 KB). Loaded Objects now: 4755.
+Memory consumption went from 273.8 MB to 273.7 MB.
+Total: 2.364500 ms (FindLiveObjects: 0.220300 ms CreateObjectMapping: 0.079500 ms MarkObjects: 1.975800 ms  DeleteObjects: 0.088100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -180,543 +180,1245 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 81827.537988 seconds.
-  path: Assets/shaders/Toto/Isla.mat
-  artifactKey: Guid(a459447d2bad16943bb0d00ffba2ed5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/shaders/Toto/Isla.mat using Guid(a459447d2bad16943bb0d00ffba2ed5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07d9e075662e50359a0552348cbecaf6') in 0.089427 seconds
+  Time since last request: 85277.415467 seconds.
+  path: Assets/shaders/Toto/Holograma.mat
+  artifactKey: Guid(1e0340a70434ac542a0a0b30aa35108d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shaders/Toto/Holograma.mat using Guid(1e0340a70434ac542a0a0b30aa35108d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e261352d7ab1f69faf3a5fed964ba16c') in 0.189900 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.311 seconds
+Refreshing native plugins compatible for Editor in 3.09 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.767 seconds
+Domain Reload Profiling: 1075ms
+	BeginReloadAssembly (103ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (156ms)
+		LoadAssemblies (203ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (9ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (767ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (297ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (49ms)
+			ProcessInitializeOnLoadAttributes (220ms)
+			ProcessInitializeOnLoadMethodAttributes (15ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Shader 'ASESampleShaders/Terrain/TerrainSnowCoverageFirstPass': dependency 'BaseMapShader' shader 'ASESampleShaders/TerrainBase' not found
+Refreshing native plugins compatible for Editor in 3.24 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3984 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (35.2 KB). Loaded Objects now: 4800.
+Memory consumption went from 208.6 MB to 208.6 MB.
+Total: 2.107100 ms (FindLiveObjects: 0.189800 ms CreateObjectMapping: 0.070800 ms MarkObjects: 1.788400 ms  DeleteObjects: 0.057400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 434.020623 seconds.
+  path: Assets/shaders/Toto/Holograma.mat
+  artifactKey: Guid(1e0340a70434ac542a0a0b30aa35108d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shaders/Toto/Holograma.mat using Guid(1e0340a70434ac542a0a0b30aa35108d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaeb9e1de54cfd98a7261005fe5e9952') in 0.087894 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.325 seconds
+Refreshing native plugins compatible for Editor in 3.11 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.924 seconds
+Domain Reload Profiling: 1247ms
+	BeginReloadAssembly (118ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (151ms)
+		LoadAssemblies (206ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (10ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (924ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (320ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (53ms)
+			ProcessInitializeOnLoadAttributes (236ms)
+			ProcessInitializeOnLoadMethodAttributes (18ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Shader 'ASESampleShaders/Terrain/TerrainSnowCoverageFirstPass': dependency 'BaseMapShader' shader 'ASESampleShaders/TerrainBase' not found
+Refreshing native plugins compatible for Editor in 3.32 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3984 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (35.3 KB). Loaded Objects now: 4804.
+Memory consumption went from 210.4 MB to 210.3 MB.
+Total: 2.157800 ms (FindLiveObjects: 0.263900 ms CreateObjectMapping: 0.101800 ms MarkObjects: 1.725300 ms  DeleteObjects: 0.066000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 15.225681 seconds.
+  path: Assets/shaders/Toto/Holograma.mat
+  artifactKey: Guid(1e0340a70434ac542a0a0b30aa35108d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shaders/Toto/Holograma.mat using Guid(1e0340a70434ac542a0a0b30aa35108d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '817469bea66873e371d417e1853cfd4f') in 0.061100 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.315 seconds
+Refreshing native plugins compatible for Editor in 2.94 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.923 seconds
+Domain Reload Profiling: 1237ms
+	BeginReloadAssembly (108ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (157ms)
+		LoadAssemblies (204ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (9ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (923ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (315ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (52ms)
+			ProcessInitializeOnLoadAttributes (232ms)
+			ProcessInitializeOnLoadMethodAttributes (17ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Shader 'ASESampleShaders/Terrain/TerrainSnowCoverageFirstPass': dependency 'BaseMapShader' shader 'ASESampleShaders/TerrainBase' not found
+Refreshing native plugins compatible for Editor in 2.67 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3984 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (35.5 KB). Loaded Objects now: 4808.
+Memory consumption went from 212.3 MB to 212.3 MB.
+Total: 1.924700 ms (FindLiveObjects: 0.173000 ms CreateObjectMapping: 0.074100 ms MarkObjects: 1.634400 ms  DeleteObjects: 0.042600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 31.557002 seconds.
+  path: Assets/shaders/Toto/Holograma.mat
+  artifactKey: Guid(1e0340a70434ac542a0a0b30aa35108d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shaders/Toto/Holograma.mat using Guid(1e0340a70434ac542a0a0b30aa35108d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8164550363dd4f7153c3e7650cd19f45') in 0.054491 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 12.597283 seconds.
+  path: Assets/shaders/Toto/Holograma.shader
+  artifactKey: Guid(ab49649fce4e603499a1bcf321f63e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shaders/Toto/Holograma.shader using Guid(ab49649fce4e603499a1bcf321f63e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5b72f8199c6be3ea30661af4b7fac63') in 0.000606 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 8.488288 seconds.
+  path: Assets/shaders/Toto/Holograma.mat
+  artifactKey: Guid(1e0340a70434ac542a0a0b30aa35108d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shaders/Toto/Holograma.mat using Guid(1e0340a70434ac542a0a0b30aa35108d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e7f5f395be79737b922227e966085b4') in 0.138343 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 162.619555 seconds.
+  path: Assets/shaders/Toto/Holograma.mat
+  artifactKey: Guid(1e0340a70434ac542a0a0b30aa35108d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shaders/Toto/Holograma.mat using Guid(1e0340a70434ac542a0a0b30aa35108d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd935ad4680faa2fa773a5567f5cf584a') in 0.141547 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.309 seconds
+Refreshing native plugins compatible for Editor in 3.52 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.932 seconds
+Domain Reload Profiling: 1240ms
+	BeginReloadAssembly (111ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (150ms)
+		LoadAssemblies (197ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (11ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (933ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (320ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (54ms)
+			ProcessInitializeOnLoadAttributes (236ms)
+			ProcessInitializeOnLoadMethodAttributes (17ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Shader 'ASESampleShaders/Terrain/TerrainSnowCoverageFirstPass': dependency 'BaseMapShader' shader 'ASESampleShaders/TerrainBase' not found
+Refreshing native plugins compatible for Editor in 3.74 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3984 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (35.3 KB). Loaded Objects now: 4812.
+Memory consumption went from 214.5 MB to 214.4 MB.
+Total: 2.254200 ms (FindLiveObjects: 0.196000 ms CreateObjectMapping: 0.077600 ms MarkObjects: 1.927600 ms  DeleteObjects: 0.051900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 826.421394 seconds.
+  path: Assets/shaders/Toto/Holograma.mat
+  artifactKey: Guid(1e0340a70434ac542a0a0b30aa35108d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shaders/Toto/Holograma.mat using Guid(1e0340a70434ac542a0a0b30aa35108d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ef2e430eab5e4417464a014d488f24f') in 0.068775 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 2166.553669 seconds.
+  path: Assets/shaders/Toto/Holograma.mat
+  artifactKey: Guid(1e0340a70434ac542a0a0b30aa35108d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shaders/Toto/Holograma.mat using Guid(1e0340a70434ac542a0a0b30aa35108d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3996299418538bcbf0c38e6da48480f') in 0.031283 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 40.185737 seconds.
+  path: Assets/shaders/Toto/Holograma.mat
+  artifactKey: Guid(1e0340a70434ac542a0a0b30aa35108d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shaders/Toto/Holograma.mat using Guid(1e0340a70434ac542a0a0b30aa35108d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader error in 'Holograma': 'sin': no matching 1 parameter intrinsic function; Possible intrinsic functions are: sin(float|half|min10float|min16float) at line 35 (on d3d11)
+Shader error in 'Holograma': syntax error: unexpected token ')' at line 35 (on d3d11)
+Shader error in 'Holograma': 'sin': no matching 1 parameter intrinsic function; Possible intrinsic functions are: sin(float|half|min10float|min16float) at line 35 (on d3d11)
+Shader error in 'Holograma': syntax error: unexpected token ')' at line 35 (on d3d11)
+ -> (artifact id: 'a9b915fd90f10c48620336ec8a8abfc9') in 0.047676 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.258173 seconds.
+  path: Assets/shaders/Toto/Holograma.mat
+  artifactKey: Guid(1e0340a70434ac542a0a0b30aa35108d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shaders/Toto/Holograma.mat using Guid(1e0340a70434ac542a0a0b30aa35108d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader error in 'Holograma': 'sin': no matching 1 parameter intrinsic function; Possible intrinsic functions are: sin(float|half|min10float|min16float) at line 35 (on d3d11)
+Shader error in 'Holograma': syntax error: unexpected token ')' at line 35 (on d3d11)
+Shader error in 'Holograma': 'sin': no matching 1 parameter intrinsic function; Possible intrinsic functions are: sin(float|half|min10float|min16float) at line 35 (on d3d11)
+Shader error in 'Holograma': syntax error: unexpected token ')' at line 35 (on d3d11)
+ -> (artifact id: '12610ae4bc82159a52a7ae28ca7c7170') in 0.018386 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 4.252136 seconds.
+  path: Assets/shaders/Toto/Holograma.shader
+  artifactKey: Guid(ab49649fce4e603499a1bcf321f63e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shaders/Toto/Holograma.shader using Guid(ab49649fce4e603499a1bcf321f63e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f5adb94e5aa67259199d8b795460f89') in 0.001220 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 9.128299 seconds.
+  path: Assets/shaders/Toto/Holograma.mat
+  artifactKey: Guid(1e0340a70434ac542a0a0b30aa35108d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shaders/Toto/Holograma.mat using Guid(1e0340a70434ac542a0a0b30aa35108d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0f5617148fb4920634f746b3aa9a71f') in 0.279847 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.580 seconds
+Refreshing native plugins compatible for Editor in 6.72 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.474 seconds
+Domain Reload Profiling: 3052ms
+	BeginReloadAssembly (191ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (45ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (291ms)
+		LoadAssemblies (371ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (22ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (2476ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (735ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (98ms)
+			ProcessInitializeOnLoadAttributes (520ms)
+			ProcessInitializeOnLoadMethodAttributes (76ms)
+			AfterProcessingInitializeOnLoad (25ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+Shader 'ASESampleShaders/Terrain/TerrainSnowCoverageFirstPass': dependency 'BaseMapShader' shader 'ASESampleShaders/TerrainBase' not found
+Refreshing native plugins compatible for Editor in 15.34 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3984 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (35.4 KB). Loaded Objects now: 4816.
+Memory consumption went from 216.3 MB to 216.3 MB.
+Total: 7.838400 ms (FindLiveObjects: 0.380800 ms CreateObjectMapping: 0.192200 ms MarkObjects: 7.118000 ms  DeleteObjects: 0.144900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.618 seconds
+Refreshing native plugins compatible for Editor in 7.80 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.758 seconds
+Domain Reload Profiling: 2374ms
+	BeginReloadAssembly (214ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (51ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (51ms)
+	LoadAllAssembliesAndSetupDomain (289ms)
+		LoadAssemblies (382ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (21ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1759ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (635ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (103ms)
+			ProcessInitializeOnLoadAttributes (471ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Shader 'ASESampleShaders/Terrain/TerrainSnowCoverageFirstPass': dependency 'BaseMapShader' shader 'ASESampleShaders/TerrainBase' not found
+Refreshing native plugins compatible for Editor in 13.73 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3985 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (35.5 KB). Loaded Objects now: 4820.
+Memory consumption went from 218.6 MB to 218.5 MB.
+Total: 6.795900 ms (FindLiveObjects: 0.620800 ms CreateObjectMapping: 0.205000 ms MarkObjects: 5.810600 ms  DeleteObjects: 0.156600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 203.963137 seconds.
+  path: Assets/shaders/Toto/Holograma.mat
+  artifactKey: Guid(1e0340a70434ac542a0a0b30aa35108d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shaders/Toto/Holograma.mat using Guid(1e0340a70434ac542a0a0b30aa35108d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader error in 'Holograma': 'sin': no matching 1 parameter intrinsic function; Possible intrinsic functions are: sin(float|half|min10float|min16float) at line 35 (on d3d11)
+Shader error in 'Holograma': syntax error: unexpected token ')' at line 35 (on d3d11)
+Shader error in 'Holograma': 'sin': no matching 1 parameter intrinsic function; Possible intrinsic functions are: sin(float|half|min10float|min16float) at line 35 (on d3d11)
+Shader error in 'Holograma': syntax error: unexpected token ')' at line 35 (on d3d11)
+ -> (artifact id: '4014d2b681a57a1c85a76225a17b084f') in 0.148400 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.941777 seconds.
+  path: Assets/shaders/Toto/Holograma.mat
+  artifactKey: Guid(1e0340a70434ac542a0a0b30aa35108d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shaders/Toto/Holograma.mat using Guid(1e0340a70434ac542a0a0b30aa35108d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader error in 'Holograma': 'sin': no matching 1 parameter intrinsic function; Possible intrinsic functions are: sin(float|half|min10float|min16float) at line 35 (on d3d11)
+Shader error in 'Holograma': syntax error: unexpected token ')' at line 35 (on d3d11)
+Shader error in 'Holograma': 'sin': no matching 1 parameter intrinsic function; Possible intrinsic functions are: sin(float|half|min10float|min16float) at line 35 (on d3d11)
+Shader error in 'Holograma': syntax error: unexpected token ')' at line 35 (on d3d11)
+ -> (artifact id: '59a9057f0567dd2b6d7f82f2be7cad31') in 0.017982 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 6.162938 seconds.
+  path: Assets/shaders/Toto/Holograma.shader
+  artifactKey: Guid(ab49649fce4e603499a1bcf321f63e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shaders/Toto/Holograma.shader using Guid(ab49649fce4e603499a1bcf321f63e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14bc2736512262147e8bc18f9a325ef3') in 0.002039 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 17.896840 seconds.
+  path: Assets/shaders/Toto/Holograma.mat
+  artifactKey: Guid(1e0340a70434ac542a0a0b30aa35108d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shaders/Toto/Holograma.mat using Guid(1e0340a70434ac542a0a0b30aa35108d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36c0b6b73d10475078c58be1d6acf5b7') in 0.289424 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.621 seconds
+Refreshing native plugins compatible for Editor in 8.69 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.822 seconds
+Domain Reload Profiling: 2441ms
+	BeginReloadAssembly (229ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (49ms)
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (292ms)
+		LoadAssemblies (398ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (23ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1823ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (623ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (99ms)
+			ProcessInitializeOnLoadAttributes (464ms)
+			ProcessInitializeOnLoadMethodAttributes (34ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Shader 'ASESampleShaders/Terrain/TerrainSnowCoverageFirstPass': dependency 'BaseMapShader' shader 'ASESampleShaders/TerrainBase' not found
+Refreshing native plugins compatible for Editor in 11.87 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3984 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (35.4 KB). Loaded Objects now: 4824.
+Memory consumption went from 220.3 MB to 220.2 MB.
+Total: 6.928500 ms (FindLiveObjects: 0.685800 ms CreateObjectMapping: 0.310800 ms MarkObjects: 5.828600 ms  DeleteObjects: 0.100400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.644 seconds
+Refreshing native plugins compatible for Editor in 8.51 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.864 seconds
+Domain Reload Profiling: 2505ms
+	BeginReloadAssembly (228ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (52ms)
+	RebuildCommonClasses (49ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (307ms)
+		LoadAssemblies (412ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (20ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1865ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (654ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (98ms)
+			ProcessInitializeOnLoadAttributes (497ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Shader 'ASESampleShaders/Terrain/TerrainSnowCoverageFirstPass': dependency 'BaseMapShader' shader 'ASESampleShaders/TerrainBase' not found
+Refreshing native plugins compatible for Editor in 12.04 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3985 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (35.3 KB). Loaded Objects now: 4828.
+Memory consumption went from 222.4 MB to 222.4 MB.
+Total: 6.727600 ms (FindLiveObjects: 0.587900 ms CreateObjectMapping: 0.256200 ms MarkObjects: 5.751100 ms  DeleteObjects: 0.130000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.593 seconds
+Refreshing native plugins compatible for Editor in 6.05 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.016 seconds
+Domain Reload Profiling: 2607ms
+	BeginReloadAssembly (197ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (41ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (290ms)
+		LoadAssemblies (379ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (20ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (2017ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (716ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (126ms)
+			ProcessInitializeOnLoadAttributes (517ms)
+			ProcessInitializeOnLoadMethodAttributes (40ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Shader 'ASESampleShaders/Terrain/TerrainSnowCoverageFirstPass': dependency 'BaseMapShader' shader 'ASESampleShaders/TerrainBase' not found
+Refreshing native plugins compatible for Editor in 5.56 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3985 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (35.4 KB). Loaded Objects now: 4832.
+Memory consumption went from 224.4 MB to 224.3 MB.
+Total: 3.229300 ms (FindLiveObjects: 0.254000 ms CreateObjectMapping: 0.127400 ms MarkObjects: 2.768600 ms  DeleteObjects: 0.078200 ms)
+
+Prepare: number of updated asset objects reloaded= 1
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 299.486198 seconds.
+  path: Assets/shaders/Toto/Holograma.mat
+  artifactKey: Guid(1e0340a70434ac542a0a0b30aa35108d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shaders/Toto/Holograma.mat using Guid(1e0340a70434ac542a0a0b30aa35108d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader error in 'Holograma': 'sin': no matching 1 parameter intrinsic function; Possible intrinsic functions are: sin(float|half|min10float|min16float) at line 35 (on d3d11)
+Shader error in 'Holograma': syntax error: unexpected token ')' at line 35 (on d3d11)
+Shader error in 'Holograma': 'sin': no matching 1 parameter intrinsic function; Possible intrinsic functions are: sin(float|half|min10float|min16float) at line 35 (on d3d11)
+Shader error in 'Holograma': syntax error: unexpected token ')' at line 35 (on d3d11)
+ -> (artifact id: '62c4d8c7fcf860339d7e687f9dc28375') in 0.202710 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.644086 seconds.
+  path: Assets/shaders/Toto/Holograma.shader
+  artifactKey: Guid(ab49649fce4e603499a1bcf321f63e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shaders/Toto/Holograma.shader using Guid(ab49649fce4e603499a1bcf321f63e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0767470b1cf4724f570db3ecf4fb9655') in 0.001799 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 5.396699 seconds.
+  path: Assets/shaders/Toto/Holograma.mat
+  artifactKey: Guid(1e0340a70434ac542a0a0b30aa35108d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shaders/Toto/Holograma.mat using Guid(1e0340a70434ac542a0a0b30aa35108d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92a13c6def238b43d213327bd945a800') in 0.260923 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 92.927909 seconds.
+  path: Assets/shaders/Toto/Holograma.mat
+  artifactKey: Guid(1e0340a70434ac542a0a0b30aa35108d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shaders/Toto/Holograma.mat using Guid(1e0340a70434ac542a0a0b30aa35108d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fb1873befd614f03494e51e03ae0a81') in 0.098895 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 4.073936 seconds.
+  path: Assets/shaders/Toto/Holograma.mat
+  artifactKey: Guid(1e0340a70434ac542a0a0b30aa35108d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shaders/Toto/Holograma.mat using Guid(1e0340a70434ac542a0a0b30aa35108d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '187e658a5a62abe82fcbab305d83cccd') in 0.301359 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.024993 seconds.
+  path: Assets/shaders/Toto/Holograma.mat
+  artifactKey: Guid(1e0340a70434ac542a0a0b30aa35108d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shaders/Toto/Holograma.mat using Guid(1e0340a70434ac542a0a0b30aa35108d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b200d16d1203f62b19166813af7a6c79') in 0.104880 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.645 seconds
+Refreshing native plugins compatible for Editor in 8.14 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.855 seconds
+Domain Reload Profiling: 2495ms
+	BeginReloadAssembly (209ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (55ms)
+	RebuildCommonClasses (52ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (49ms)
+	LoadAllAssembliesAndSetupDomain (312ms)
+		LoadAssemblies (395ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (23ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1856ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (648ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (109ms)
+			ProcessInitializeOnLoadAttributes (480ms)
+			ProcessInitializeOnLoadMethodAttributes (32ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Shader 'ASESampleShaders/Terrain/TerrainSnowCoverageFirstPass': dependency 'BaseMapShader' shader 'ASESampleShaders/TerrainBase' not found
+Refreshing native plugins compatible for Editor in 10.96 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3984 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (35.4 KB). Loaded Objects now: 4836.
+Memory consumption went from 226.1 MB to 226.0 MB.
+Total: 5.121000 ms (FindLiveObjects: 0.294000 ms CreateObjectMapping: 0.149700 ms MarkObjects: 4.487900 ms  DeleteObjects: 0.188400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 27.909475 seconds.
+  path: Assets/shaders/Toto/Holograma.mat
+  artifactKey: Guid(1e0340a70434ac542a0a0b30aa35108d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shaders/Toto/Holograma.mat using Guid(1e0340a70434ac542a0a0b30aa35108d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader error in 'Holograma': 'sin': no matching 1 parameter intrinsic function; Possible intrinsic functions are: sin(float|half|min10float|min16float) at line 35 (on d3d11)
+Shader error in 'Holograma': syntax error: unexpected token ')' at line 35 (on d3d11)
+Shader error in 'Holograma': 'sin': no matching 1 parameter intrinsic function; Possible intrinsic functions are: sin(float|half|min10float|min16float) at line 35 (on d3d11)
+Shader error in 'Holograma': syntax error: unexpected token ')' at line 35 (on d3d11)
+ -> (artifact id: 'c891c724a5f1b7e18aeecb211dfb91de') in 0.184217 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.583 seconds
+Refreshing native plugins compatible for Editor in 7.20 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.936 seconds
+Domain Reload Profiling: 2515ms
+	BeginReloadAssembly (183ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (37ms)
+	RebuildCommonClasses (51ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (288ms)
+		LoadAssemblies (372ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (19ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (1937ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (617ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (112ms)
+			ProcessInitializeOnLoadAttributes (448ms)
+			ProcessInitializeOnLoadMethodAttributes (30ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Shader 'ASESampleShaders/Terrain/TerrainSnowCoverageFirstPass': dependency 'BaseMapShader' shader 'ASESampleShaders/TerrainBase' not found
+Refreshing native plugins compatible for Editor in 5.80 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3984 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (35.4 KB). Loaded Objects now: 4840.
+Memory consumption went from 228.0 MB to 227.9 MB.
+Total: 3.197600 ms (FindLiveObjects: 0.259100 ms CreateObjectMapping: 0.110900 ms MarkObjects: 2.762200 ms  DeleteObjects: 0.064400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 18.968081 seconds.
+  path: Assets/shaders/Toto/Holograma.mat
+  artifactKey: Guid(1e0340a70434ac542a0a0b30aa35108d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shaders/Toto/Holograma.mat using Guid(1e0340a70434ac542a0a0b30aa35108d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader error in 'Holograma': 'sin': no matching 1 parameter intrinsic function; Possible intrinsic functions are: sin(float|half|min10float|min16float) at line 35 (on d3d11)
+Shader error in 'Holograma': syntax error: unexpected token ')' at line 35 (on d3d11)
+Shader error in 'Holograma': 'sin': no matching 1 parameter intrinsic function; Possible intrinsic functions are: sin(float|half|min10float|min16float) at line 35 (on d3d11)
+Shader error in 'Holograma': syntax error: unexpected token ')' at line 35 (on d3d11)
+ -> (artifact id: 'd93b49e1ecd64d6e2576bfa74fb1e043') in 0.129342 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 35.326698 seconds.
+  path: Assets/shaders/Toto/Holograma.mat
+  artifactKey: Guid(1e0340a70434ac542a0a0b30aa35108d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shaders/Toto/Holograma.mat using Guid(1e0340a70434ac542a0a0b30aa35108d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '009b0ebc91d7a2ceb57e13f1ce448931') in 0.211502 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.619 seconds
+Refreshing native plugins compatible for Editor in 7.23 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.092 seconds
+Domain Reload Profiling: 2708ms
+	BeginReloadAssembly (214ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (52ms)
+	RebuildCommonClasses (53ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (285ms)
+		LoadAssemblies (386ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (17ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (2092ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (761ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (102ms)
+			ProcessInitializeOnLoadAttributes (582ms)
+			ProcessInitializeOnLoadMethodAttributes (46ms)
+			AfterProcessingInitializeOnLoad (14ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (19ms)
+Shader 'ASESampleShaders/Terrain/TerrainSnowCoverageFirstPass': dependency 'BaseMapShader' shader 'ASESampleShaders/TerrainBase' not found
+Refreshing native plugins compatible for Editor in 17.44 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3984 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (35.5 KB). Loaded Objects now: 4844.
+Memory consumption went from 230.0 MB to 230.0 MB.
+Total: 7.981700 ms (FindLiveObjects: 0.394000 ms CreateObjectMapping: 0.181800 ms MarkObjects: 7.216800 ms  DeleteObjects: 0.187500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 140.293683 seconds.
+  path: Assets/shaders/Toto/Holograma.mat
+  artifactKey: Guid(1e0340a70434ac542a0a0b30aa35108d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shaders/Toto/Holograma.mat using Guid(1e0340a70434ac542a0a0b30aa35108d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a38e422a296dcc8f8b424818775c8f0') in 0.217120 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 7.948247 seconds.
+  path: Assets/shaders/Toto/Holograma.shader
+  artifactKey: Guid(ab49649fce4e603499a1bcf321f63e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shaders/Toto/Holograma.shader using Guid(ab49649fce4e603499a1bcf321f63e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c615e2f117594758744cef8ec51ef5b8') in 0.001303 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 5.773759 seconds.
+  path: Assets/shaders/Toto/Holograma.mat
+  artifactKey: Guid(1e0340a70434ac542a0a0b30aa35108d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shaders/Toto/Holograma.mat using Guid(1e0340a70434ac542a0a0b30aa35108d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8887267285feed7b5b20a8fe9816423b') in 0.013635 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 5.488906 seconds.
+  path: Assets/shaders/Toto/Holograma.mat
+  artifactKey: Guid(1e0340a70434ac542a0a0b30aa35108d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shaders/Toto/Holograma.mat using Guid(1e0340a70434ac542a0a0b30aa35108d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f783d20d18ba98aa286845478054761b') in 0.094752 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 5.406917 seconds.
+  path: Assets/shaders/Toto/Holograma.mat
+  artifactKey: Guid(1e0340a70434ac542a0a0b30aa35108d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shaders/Toto/Holograma.mat using Guid(1e0340a70434ac542a0a0b30aa35108d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42e7c507a3ae900d2d77ea8c9bbbb86f') in 0.012978 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 181.784771 seconds.
+  path: Assets/shaders/Toto/Holograma.mat
+  artifactKey: Guid(1e0340a70434ac542a0a0b30aa35108d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shaders/Toto/Holograma.mat using Guid(1e0340a70434ac542a0a0b30aa35108d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2bcd91075afcb674c83a9288dcf7d51') in 0.097433 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 2.790966 seconds.
+  path: Assets/shaders/Toto/Holograma.mat
+  artifactKey: Guid(1e0340a70434ac542a0a0b30aa35108d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shaders/Toto/Holograma.mat using Guid(1e0340a70434ac542a0a0b30aa35108d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9931194d03fadb433b09a0fa362878c') in 0.130522 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 46.640786 seconds.
+  path: Assets/shaders/Toto/Holograma.mat
+  artifactKey: Guid(1e0340a70434ac542a0a0b30aa35108d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shaders/Toto/Holograma.mat using Guid(1e0340a70434ac542a0a0b30aa35108d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '505dd6ad1e3debaeded312de7f60f118') in 0.143444 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 30.944643 seconds.
+  path: Assets/shaders/Toto/Holograma.mat
+  artifactKey: Guid(1e0340a70434ac542a0a0b30aa35108d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shaders/Toto/Holograma.mat using Guid(1e0340a70434ac542a0a0b30aa35108d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41eed0100d994bcbf32a0fb11d58b833') in 0.145211 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 19.930263 seconds.
+  path: Assets/shaders/Toto/Holograma.mat
+  artifactKey: Guid(1e0340a70434ac542a0a0b30aa35108d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shaders/Toto/Holograma.mat using Guid(1e0340a70434ac542a0a0b30aa35108d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '732bc92ff10c25689a175c0020516e0b') in 0.143954 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 6.780719 seconds.
+  path: Assets/shaders/Toto/Holograma.mat
+  artifactKey: Guid(1e0340a70434ac542a0a0b30aa35108d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shaders/Toto/Holograma.mat using Guid(1e0340a70434ac542a0a0b30aa35108d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0805c7a9b4da70a1729eda6adf97df09') in 0.026565 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 85.077781 seconds.
+  path: Assets/shaders/Toto/Holograma.mat
+  artifactKey: Guid(1e0340a70434ac542a0a0b30aa35108d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shaders/Toto/Holograma.mat using Guid(1e0340a70434ac542a0a0b30aa35108d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1b50d82201d7bf2aee32ab92c3a6aee') in 0.137576 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.908711 seconds.
+  path: Assets/shaders/Toto/Holograma.mat
+  artifactKey: Guid(1e0340a70434ac542a0a0b30aa35108d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shaders/Toto/Holograma.mat using Guid(1e0340a70434ac542a0a0b30aa35108d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0b350bbeab74a67c36cba901abc530b') in 0.027162 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 9.964181 seconds.
+  path: Assets/shaders/Toto/Holograma.mat
+  artifactKey: Guid(1e0340a70434ac542a0a0b30aa35108d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shaders/Toto/Holograma.mat using Guid(1e0340a70434ac542a0a0b30aa35108d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b05350e7269cd4eb4d476cdc1074a9d1') in 0.024554 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 37.234886 seconds.
+  path: Assets/shaders/Toto/Holograma.mat
+  artifactKey: Guid(1e0340a70434ac542a0a0b30aa35108d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shaders/Toto/Holograma.mat using Guid(1e0340a70434ac542a0a0b30aa35108d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d37ba5b6554f07ca6cd0dc7b8cef638') in 0.126011 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 9.424395 seconds.
+  path: Assets/shaders/Toto/Holograma.mat
+  artifactKey: Guid(1e0340a70434ac542a0a0b30aa35108d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shaders/Toto/Holograma.mat using Guid(1e0340a70434ac542a0a0b30aa35108d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c35a0fed0a826132bf6c3ed019ccee37') in 0.013349 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 387.748453 seconds.
+  path: Assets/shaders/Toto/Holograma.mat
+  artifactKey: Guid(1e0340a70434ac542a0a0b30aa35108d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shaders/Toto/Holograma.mat using Guid(1e0340a70434ac542a0a0b30aa35108d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e198e33c276dfa0098b9871325bb49ef') in 0.017684 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 165.362151 seconds.
+  path: Assets/shaders/Toto/Flag.shader
+  artifactKey: Guid(f12bbdc3e73f09e4fa0a2592128e02e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shaders/Toto/Flag.shader using Guid(f12bbdc3e73f09e4fa0a2592128e02e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7518e4f6a634809802e2c8a80815e09e') in 0.005272 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 11.420031 seconds.
+  path: Assets/shaders/Toto/Flag.shader
+  artifactKey: Guid(f12bbdc3e73f09e4fa0a2592128e02e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shaders/Toto/Flag.shader using Guid(f12bbdc3e73f09e4fa0a2592128e02e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1327cd0f0194a8aacdefcdef27f4fa72') in 0.004682 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 3.982783 seconds.
+  path: Assets/shaders/Toto/Flag.mat
+  artifactKey: Guid(66a8a80ae49e2fc4f8916f398f86b66b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shaders/Toto/Flag.mat using Guid(66a8a80ae49e2fc4f8916f398f86b66b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e51881898646fe4c5488d5d578235b40') in 0.260161 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 23.484683 seconds.
+  path: Assets/shaders/Toto/Holograma.shader
+  artifactKey: Guid(ab49649fce4e603499a1bcf321f63e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shaders/Toto/Holograma.shader using Guid(ab49649fce4e603499a1bcf321f63e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4f9ed1a655c94f07c046237ccc062e6') in 0.002331 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 134.069143 seconds.
+  path: Assets/shaders/Toto/Flag.mat
+  artifactKey: Guid(66a8a80ae49e2fc4f8916f398f86b66b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shaders/Toto/Flag.mat using Guid(66a8a80ae49e2fc4f8916f398f86b66b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0d986dedfdfe180fd440d978d271194') in 0.195925 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 73.467281 seconds.
+  path: Assets/shaders/Toto/Flag.mat
+  artifactKey: Guid(66a8a80ae49e2fc4f8916f398f86b66b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shaders/Toto/Flag.mat using Guid(66a8a80ae49e2fc4f8916f398f86b66b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cea59ef9077e82b711ffd22041fba93') in 0.267828 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.522611 seconds.
+  path: Assets/shaders/Toto/Holograma.mat
+  artifactKey: Guid(1e0340a70434ac542a0a0b30aa35108d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shaders/Toto/Holograma.mat using Guid(1e0340a70434ac542a0a0b30aa35108d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69a41443698ddf03bf4778ddc4896120') in 0.013336 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 233.733844 seconds.
+  path: Assets/shaders/Toto/Isla.shader
+  artifactKey: Guid(8adf6722b94dd8d4194d855e32694729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shaders/Toto/Isla.shader using Guid(8adf6722b94dd8d4194d855e32694729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bea51cf5910e3edea04c6977d1319fe') in 0.002732 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.768980 seconds.
+  path: Assets/shaders/Toto/NoiseMap.shader
+  artifactKey: Guid(32d8ab40b7892724ea685ce9a015a97f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shaders/Toto/NoiseMap.shader using Guid(32d8ab40b7892724ea685ce9a015a97f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddac9db54b0fef91b345400c9a5d65b3') in 0.001642 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 79.284141 seconds.
+  path: Assets/shaders/Toto/Flag.mat
+  artifactKey: Guid(66a8a80ae49e2fc4f8916f398f86b66b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shaders/Toto/Flag.mat using Guid(66a8a80ae49e2fc4f8916f398f86b66b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e36f327c6a9452e8c11f94d84bd9dc59') in 0.228953 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 243.156493 seconds.
+  path: Assets/shaders/Toto/Flag.mat
+  artifactKey: Guid(66a8a80ae49e2fc4f8916f398f86b66b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shaders/Toto/Flag.mat using Guid(66a8a80ae49e2fc4f8916f398f86b66b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91b90e38995ca422c714254a9305f455') in 0.235176 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 23.170302 seconds.
+  path: Assets/shaders/Toto/Flag.mat
+  artifactKey: Guid(66a8a80ae49e2fc4f8916f398f86b66b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shaders/Toto/Flag.mat using Guid(66a8a80ae49e2fc4f8916f398f86b66b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0acf4e5553acf2bda7623d95b7eb6cec') in 0.313794 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 109.498548 seconds.
+  path: Assets/shaders/BanderaMap.png
+  artifactKey: Guid(86884e6333907a946b998752abf1eeff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shaders/BanderaMap.png using Guid(86884e6333907a946b998752abf1eeff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e3852ce11cbf9fc61344db2365e3a84') in 0.083823 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 1095.533919 seconds.
-  path: Assets/shaders/brick_height.jpg
-  artifactKey: Guid(80df5840a6336984ea475253ba790076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/shaders/brick_height.jpg using Guid(80df5840a6336984ea475253ba790076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3578f7982150d052fcb3ca6b81589e49') in 0.031047 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 3.303036 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/Help2.png
-  artifactKey: Guid(77af20044e9766840a6be568806dc22e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/Help2.png using Guid(77af20044e9766840a6be568806dc22e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a457e0e275d482df4e29e3d6ed7da296') in 0.016220 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/ItemCleanupOFF.png
-  artifactKey: Guid(8b6b4ff52c49a2a43a602895465e107c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/ItemCleanupOFF.png using Guid(8b6b4ff52c49a2a43a602895465e107c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c0dbce15525043876e27e6ff33a2c48') in 0.022130 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/Textures/Icon64.png
-  artifactKey: Guid(2c6536772776dd84f872779990273bfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/Textures/Icon64.png using Guid(2c6536772776dd84f872779990273bfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b398b69d7da811dd803870b0c2ef75f5') in 0.021263 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Canvas/LineTex 2.png
-  artifactKey: Guid(03a7d169469c1af41bb03241a7b7e23d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Canvas/LineTex 2.png using Guid(03a7d169469c1af41bb03241a7b7e23d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd20c045a42e8c3b14cf95fe654e0d76d') in 0.018689 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/AmplifyShaderEditor/Examples/Built-In/Community HologramSimple/HoloNormal.png
-  artifactKey: Guid(f7f322ea849ea7d41adb6fa8a7d8a3e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Examples/Built-In/Community HologramSimple/HoloNormal.png using Guid(f7f322ea849ea7d41adb6fa8a7d8a3e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3be1124b3fb84674f7a87d5a4727f64b') in 0.024354 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/Library.png
-  artifactKey: Guid(9a81d7df8e62c044a9d1cada0c8a2131) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/Library.png using Guid(9a81d7df8e62c044a9d1cada0c8a2131) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc3e8130ebae8c8aeb766c925df3d1a3') in 0.016393 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Canvas/LineTex.png
-  artifactKey: Guid(02f71419854c0d845a930c9e0a0bf775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Canvas/LineTex.png using Guid(02f71419854c0d845a930c9e0a0bf775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f44fd1d69253c089e8a75b8bcc74a569') in 0.020287 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 4.205597 seconds.
-  path: Assets/AmplifyShaderEditor/Examples/Assets/Textures/Snow/snow_albedo.jpg
-  artifactKey: Guid(4112a019314dad94f9ffc2f8481f31bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Examples/Assets/Textures/Snow/snow_albedo.jpg using Guid(4112a019314dad94f9ffc2f8481f31bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b75791dfa4763a16a24ce2aee63ab99') in 0.024248 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/AmplifyShaderEditor/Examples/Assets/Textures/TV/TV_Albedo.png
-  artifactKey: Guid(fee3d6c66c9f7fc4294caf4caefc054e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Examples/Assets/Textures/TV/TV_Albedo.png using Guid(fee3d6c66c9f7fc4294caf4caefc054e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf9b746fdac6b631c1e4a4dab4d1c6e3') in 0.022900 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.702936 seconds.
-  path: Assets/AmplifyShaderEditor/Examples/Assets/Textures/SceneTextures/BrushedMetalSpecular.tif
-  artifactKey: Guid(bea7fa376f932ba419f3d1fc95bd1a2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Examples/Assets/Textures/SceneTextures/BrushedMetalSpecular.tif using Guid(bea7fa376f932ba419f3d1fc95bd1a2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0327d87c9ca5a79733c29953429ebfa7') in 0.023015 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 1.688655 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/Textures/About.png
-  artifactKey: Guid(8aba6bb20faf8824d9d81946542f1ce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/Textures/About.png using Guid(8aba6bb20faf8824d9d81946542f1ce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79b42a1e0b82b2806c4e3f2056102988') in 0.019135 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/Nodes/Bezier1X2AA.png
-  artifactKey: Guid(06e687f68dd96f0448c6d8217bbcf608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/Nodes/Bezier1X2AA.png using Guid(06e687f68dd96f0448c6d8217bbcf608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e889051179e1abc634c9db28cc3383bd') in 0.018869 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/Textures/blue.png
-  artifactKey: Guid(826f80ee0ad07444c8558af826a4df2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/Textures/blue.png using Guid(826f80ee0ad07444c8558af826a4df2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff0b75310d62e5f227e2b2015ab72782') in 0.017109 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Nodes/BlueNormalBaseLeft.png
-  artifactKey: Guid(330fd0c8f074a3c4f8042114a61a73d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Nodes/BlueNormalBaseLeft.png using Guid(330fd0c8f074a3c4f8042114a61a73d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ab178cfb6eac4cb76e93330acf57f27') in 0.017874 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 1.561858 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Nodes/NodeSelectedSquare.png
-  artifactKey: Guid(080a030f87555fe419ecc1fb9f509118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Nodes/NodeSelectedSquare.png using Guid(080a030f87555fe419ecc1fb9f509118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9858ef84386bdda7b8438ec1ef5e76ba') in 0.021907 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 4.819374 seconds.
-  path: Assets/AmplifyShaderEditor/Examples/Assets/Textures/Sand/Sand_basecolor.tga
-  artifactKey: Guid(662d72b6ec210cf4cbeec2b4d3cb8b2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Examples/Assets/Textures/Sand/Sand_basecolor.tga using Guid(662d72b6ec210cf4cbeec2b4d3cb8b2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18bfd85168261002ed18c37a015e9c33') in 0.027757 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 5.876584 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Nodes/ButtonBackground.png
-  artifactKey: Guid(b57dd36838fb19c449fd4559efe3f800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Nodes/ButtonBackground.png using Guid(b57dd36838fb19c449fd4559efe3f800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a49c902025c51e8f7a5a28fe3544c0aa') in 0.023497 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.406375 seconds.
-  path: Assets/AmplifyShaderEditor/Examples/Assets/Textures/SceneTextures/CanvasSpecular.tif
-  artifactKey: Guid(4855cd84f5ba0c344b80c8009ce51491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Examples/Assets/Textures/SceneTextures/CanvasSpecular.tif using Guid(4855cd84f5ba0c344b80c8009ce51491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4e80dacbbaa8ea0a156ba65bf11ab03') in 0.022278 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.420793 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Canvas/CircleBackground.png
-  artifactKey: Guid(c560c5d8ca4c353409caf2ec204f3a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Canvas/CircleBackground.png using Guid(c560c5d8ca4c353409caf2ec204f3a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '473bbaea6d0be02d8cbd234317f3d5dc') in 0.021429 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.011800 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/CleanupOFF.png
-  artifactKey: Guid(f62c0c3a5ddcd844e905fb2632fdcb15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/CleanupOFF.png using Guid(f62c0c3a5ddcd844e905fb2632fdcb15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc3a47d347833db4db478e83e748b824') in 0.020923 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.939596 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/CleanupONNew.png
-  artifactKey: Guid(e86ba70d2363b9443beac28a6a370b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/CleanupONNew.png using Guid(e86ba70d2363b9443beac28a6a370b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4630d41465d8b21f0f5ff34ebfb828d2') in 0.020998 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.320603 seconds.
-  path: Assets/AmplifyShaderEditor/Examples/Assets/Textures/Misc/ColoredNumberAtlas.png
-  artifactKey: Guid(6b2910686f14f5844bf4707db2d5e2ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Examples/Assets/Textures/Misc/ColoredNumberAtlas.png using Guid(6b2910686f14f5844bf4707db2d5e2ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd55e2065c46766b379859b9c50df017f') in 0.018395 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.020214 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Nodes/CommentNodeBase.png
-  artifactKey: Guid(b2be9c55e7e7ba447967677c82b2cb23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Nodes/CommentNodeBase.png using Guid(b2be9c55e7e7ba447967677c82b2cb23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e685822271daab723c44e59dffa840a') in 0.018884 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.024432 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/CustomExpAddIconActive.png
-  artifactKey: Guid(52bbe770f45f531419e44a69be67ccba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/CustomExpAddIconActive.png using Guid(52bbe770f45f531419e44a69be67ccba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd03a5d0fbdcd44d757e258072116ef10') in 0.020605 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.304585 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/CustomExpRemoveIconNormal.png
-  artifactKey: Guid(839cb1530f95ad14ab58762161a9cb06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/CustomExpRemoveIconNormal.png using Guid(839cb1530f95ad14ab58762161a9cb06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efae6ea92052456a19929845a0fdba69') in 0.008532 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.023937 seconds.
-  path: Assets/AmplifyShaderEditor/Examples/Assets/Textures/Decals/Decal_MaskMap.tga
-  artifactKey: Guid(abafce4eb8166734d8a923d7eb05aa79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Examples/Assets/Textures/Decals/Decal_MaskMap.tga using Guid(abafce4eb8166734d8a923d7eb05aa79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9c3e44a660d0ecf3d74ef280dd1facb') in 0.022717 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/AmplifyShaderEditor/Examples/Assets/Textures/Decals/dirt_decal_mask.tga
-  artifactKey: Guid(5eb344b0d2df6894484b5d44dbd0fc33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Examples/Assets/Textures/Decals/dirt_decal_mask.tga using Guid(5eb344b0d2df6894484b5d44dbd0fc33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a184bc157b9d6a3e8bc4988816dfd7b') in 0.021106 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.341830 seconds.
-  path: Assets/AmplifyShaderEditor/Examples/Assets/Textures/Decals/Dirt_diffuse.tga
-  artifactKey: Guid(ceb1bacd3e5dc9b4cb4b85eb1a74cfb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Examples/Assets/Textures/Decals/Dirt_diffuse.tga using Guid(ceb1bacd3e5dc9b4cb4b85eb1a74cfb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29c03ab3260a567959d71ce0d6c3cf2c') in 0.025591 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.011839 seconds.
-  path: Assets/AmplifyShaderEditor/Examples/Built-In/Community Dissolve Burn/dissolve-guide.png
-  artifactKey: Guid(e28dc97a9541e3642a48c0e3886688c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Examples/Built-In/Community Dissolve Burn/dissolve-guide.png using Guid(e28dc97a9541e3642a48c0e3886688c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aca020b984c57ece8c525ac482138ee9') in 0.020174 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.032009 seconds.
-  path: Assets/AmplifyShaderEditor/Examples/Assets/Textures/FakeWindow/Fakewindow_v2.jpg
-  artifactKey: Guid(68238187342e117439ce4507180c5a9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Examples/Assets/Textures/FakeWindow/Fakewindow_v2.jpg using Guid(68238187342e117439ce4507180c5a9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9432d81546ca869452dddb6b8249c96') in 0.019470 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.252937 seconds.
-  path: Assets/AmplifyShaderEditor/Examples/Assets/Textures/Misc/Falloff.png
-  artifactKey: Guid(62010525e97e86644b7706ffa8f3a162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Examples/Assets/Textures/Misc/Falloff.png using Guid(62010525e97e86644b7706ffa8f3a162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '951064ef9e16af5ced54301b1db49085') in 0.022433 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.020057 seconds.
-  path: Assets/AmplifyShaderEditor/Examples/Assets/Textures/Misc/FlakesNormal.png
-  artifactKey: Guid(a268ab862991c4743a9281c69bb2c36a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Examples/Assets/Textures/Misc/FlakesNormal.png using Guid(a268ab862991c4743a9281c69bb2c36a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '034fd783f0c2f8e16445586ce9e794c7') in 0.026551 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.026013 seconds.
-  path: Assets/AmplifyShaderEditor/Examples/Built-In/UISpriteFX/FlowLine.png
-  artifactKey: Guid(7b0842e3d0da6bf468f08b4a0ad9db9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Examples/Built-In/UISpriteFX/FlowLine.png using Guid(7b0842e3d0da6bf468f08b4a0ad9db9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b36df5d1e19881772f4ae4a2034bfc2') in 0.022298 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.584025 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/FocusNode.png
-  artifactKey: Guid(da673e6179c67d346abb220a6935e359) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/FocusNode.png using Guid(da673e6179c67d346abb220a6935e359) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6529ce0c76e7085fcc889ff992853462') in 0.021406 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.358877 seconds.
-  path: Assets/AmplifyShaderEditor/Examples/Built-In/UISpriteFX/GlintRamp.png
-  artifactKey: Guid(131633c45b26caa4f9673a16077a1970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Examples/Built-In/UISpriteFX/GlintRamp.png using Guid(131633c45b26caa4f9673a16077a1970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbd12ee94d4cd500b4eea5c483f0effc') in 0.017602 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.022116 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Nodes/GraphButton.png
-  artifactKey: Guid(2b3b7485f95e8a44dab3fa9610f56cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Nodes/GraphButton.png using Guid(2b3b7485f95e8a44dab3fa9610f56cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd4a1143eeb9ccc008aa06ea0b06da9f') in 0.016293 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.376240 seconds.
-  path: Assets/AmplifyShaderEditor/Examples/Assets/Textures/Grass/Grass_A.jpg
-  artifactKey: Guid(c68296334e691ed45b62266cbc716628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Examples/Assets/Textures/Grass/Grass_A.jpg using Guid(c68296334e691ed45b62266cbc716628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baf7f0473d4ca2732340257f0742e4b6') in 0.020798 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.029820 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Nodes/GrayNormalHeader.png
-  artifactKey: Guid(9e88b336bd16b1e4b99de75f486126c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Nodes/GrayNormalHeader.png using Guid(9e88b336bd16b1e4b99de75f486126c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1be81891829c5836c25ec2ea129b884f') in 0.021266 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.295850 seconds.
-  path: Assets/AmplifyShaderEditor/Examples/Assets/Textures/Misc/GreenMatcapSkin.png
-  artifactKey: Guid(b23676ff9cac20a4c9c7b9333f055f1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Examples/Assets/Textures/Misc/GreenMatcapSkin.png using Guid(b23676ff9cac20a4c9c7b9333f055f1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38dbdc3a674591cf4f529a2487b50b40') in 0.022055 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 1.178029 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/LiveOFF.png
-  artifactKey: Guid(bb16faf366bcc6c4fbf0d7666b105354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/LiveOFF.png using Guid(bb16faf366bcc6c4fbf0d7666b105354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8051e357375153e131134e573a61037') in 0.023485 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.400010 seconds.
-  path: Assets/AmplifyShaderEditor/Examples/Assets/Textures/TV/Masks.tga
-  artifactKey: Guid(9670904ec41723446943d2bfc39209fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Examples/Assets/Textures/TV/Masks.tga using Guid(9670904ec41723446943d2bfc39209fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9cf950f4fd4dc2d3de9522ff362176c') in 0.020348 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Canvas/Material.png
-  artifactKey: Guid(157b94751c138d84bbe1768c672b5168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Canvas/Material.png using Guid(157b94751c138d84bbe1768c672b5168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '214b2729f60c6a983bd98c0c5c0b0bd7') in 0.018922 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.020166 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/MaximizeWindow.png
-  artifactKey: Guid(7a1fd3f5fef75b64385591e1890d1842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/MaximizeWindow.png using Guid(7a1fd3f5fef75b64385591e1890d1842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ad068d1ffe50d44d08cb7f4253bcbd7') in 0.020490 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.326761 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/MiniBotLeftOn.png
-  artifactKey: Guid(4c872bb553406fe44a9d0046a0ef9bc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/MiniBotLeftOn.png using Guid(4c872bb553406fe44a9d0046a0ef9bc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cef95c6509af47bfbb6799510233781') in 0.019845 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.020253 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/MiniBotMidOffHover.png
-  artifactKey: Guid(c86cb249299fb7249b5ee7fb27ef1951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/MiniBotMidOffHover.png using Guid(c86cb249299fb7249b5ee7fb27ef1951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e22690ad5b6bef57529c3f8cefd0329c') in 0.019807 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.320712 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/MiniBotRightOff.png
-  artifactKey: Guid(bfcecef29876cc54db85363cf2feebb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/MiniBotRightOff.png using Guid(bfcecef29876cc54db85363cf2feebb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '073c76c1f3bc9cb4aea203827bc9adac') in 0.019557 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.268871 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/MiniBotRightOnHover.png
-  artifactKey: Guid(d3098ebd60a35494e9977bd96b923298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/MiniBotRightOnHover.png using Guid(d3098ebd60a35494e9977bd96b923298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dff601cb558291b68c55357a0e2418a1') in 0.022133 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.022140 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/New.png
-  artifactKey: Guid(1bd93c39ca74ac041b79ae289e9b9f08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/New.png using Guid(1bd93c39ca74ac041b79ae289e9b9f08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b59fc365e11ec37ba7d2822ba493b25e') in 0.018135 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.020851 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Nodes/NoPreview.png
-  artifactKey: Guid(750b1bd7ba8bd28489650de6d0a95cc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Nodes/NoPreview.png using Guid(750b1bd7ba8bd28489650de6d0a95cc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71bbc2d44be3bf1fc45235dee545f49c') in 0.018354 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/AmplifyShaderEditor/Examples/Assets/Textures/Misc/NumberAtlas.png
-  artifactKey: Guid(c01fa92039faa084987c37588b7a59ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Examples/Assets/Textures/Misc/NumberAtlas.png using Guid(c01fa92039faa084987c37588b7a59ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e4389ce1d38f3b9f02456e251a96d5e') in 0.019792 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.238009 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/Open.png
-  artifactKey: Guid(d8b538796c7980843b59d62dbcdebef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/Open.png using Guid(d8b538796c7980843b59d62dbcdebef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4663a01aa7c1973021cf764c72fa586') in 0.021754 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/OpenSourceCodeON.PNG
-  artifactKey: Guid(8b114792ff84f6546880c031eda42bc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/OpenSourceCodeON.PNG using Guid(8b114792ff84f6546880c031eda42bc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02ce1a752570d6f50508c52fb9809195') in 0.017021 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.006370 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Nodes/PopupPicker.png
-  artifactKey: Guid(d2384a227b4ac4943b73c8151393e502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Nodes/PopupPicker.png using Guid(d2384a227b4ac4943b73c8151393e502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3311affa55ca65f4f195fd4c18a5311') in 0.022202 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Nodes/PropertyPicker.png
-  artifactKey: Guid(94816692c85001f4dab01ec3666943c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Nodes/PropertyPicker.png using Guid(94816692c85001f4dab01ec3666943c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33247d29daff5477d106c54d60d153ce') in 0.021659 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.003428 seconds.
-  path: Assets/AmplifyShaderEditor/Examples/Assets/Textures/Misc/RainbowGradient.png
-  artifactKey: Guid(bb47b838a0905154496dfe9920ae73b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Examples/Assets/Textures/Misc/RainbowGradient.png using Guid(bb47b838a0905154496dfe9920ae73b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '946a72dca55609c88f3449c3e34d5544') in 0.018753 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.015560 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/ResetInspectorIcon.png
-  artifactKey: Guid(a51794475a883744db8d524cee84e5fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/ResetInspectorIcon.png using Guid(a51794475a883744db8d524cee84e5fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0440661144b63fcf8cf6d7961b8e9995') in 0.020023 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.251363 seconds.
-  path: Assets/AmplifyShaderEditor/Examples/Assets/Textures/Rock/rock_n.jpg
-  artifactKey: Guid(0bebe40e9ebbecc48b8e9cfea982da7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Examples/Assets/Textures/Rock/rock_n.jpg using Guid(0bebe40e9ebbecc48b8e9cfea982da7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '535fac756b1f2d9d4f5da84aceb84fda') in 0.019362 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.077241 seconds.
-  path: Assets/AmplifyShaderEditor/Examples/Assets/Textures/Misc/Scanlines.jpg
-  artifactKey: Guid(05aa43dbbeddb24419e5b5b6e734d595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Examples/Assets/Textures/Misc/Scanlines.jpg using Guid(05aa43dbbeddb24419e5b5b6e734d595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '282b893c365bf20eedd110d4239f4fc9') in 0.020490 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Canvas/SelectionBox.png
-  artifactKey: Guid(a702c1245d15ddb48b8fba73bf951a65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Canvas/SelectionBox.png using Guid(a702c1245d15ddb48b8fba73bf951a65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd983b6a477beccc9ab6c010e2e516359') in 0.016901 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 1.172552 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Canvas/ShaderFunctionIcon.png
-  artifactKey: Guid(50be8291f9514914aa55c66c49da67cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Canvas/ShaderFunctionIcon.png using Guid(50be8291f9514914aa55c66c49da67cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '077878a192b27fbbcd9e6f1fbf0d7e9d') in 0.023921 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.019849 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/ShaderSelectOFF.png
-  artifactKey: Guid(ce7d95fa4e635f943a73ce1b19312cc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/ShaderSelectOFF.png using Guid(ce7d95fa4e635f943a73ce1b19312cc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a9f5ed64c5d6ba74bb4d414f99e3dc5') in 0.017997 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/AmplifyShaderEditor/Examples/Assets/Textures/TV/SideHandsNormal.png
-  artifactKey: Guid(38c34d9a83dd163439364888ad5eda23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Examples/Assets/Textures/TV/SideHandsNormal.png using Guid(38c34d9a83dd163439364888ad5eda23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43d3436367b4f70d7f6f25df36e6d2a8') in 0.018905 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.011589 seconds.
-  path: Assets/AmplifyShaderEditor/Examples/Assets/Textures/SceneTextures/SkinDiffuse.tif
-  artifactKey: Guid(ca1a5e504324857499d1fdeb25489439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Examples/Assets/Textures/SceneTextures/SkinDiffuse.tif using Guid(ca1a5e504324857499d1fdeb25489439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0a65c738c7f928bf63f4fb9a9d354ee') in 0.019543 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.253921 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/SliderHoriz.png
-  artifactKey: Guid(4cabb2d6785b8aa4db0c0a34e1e00f04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/SliderHoriz.png using Guid(4cabb2d6785b8aa4db0c0a34e1e00f04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50bd9d83262bd7f27c6880eb7be08b9b') in 0.022125 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.024385 seconds.
-  path: Assets/AmplifyShaderEditor/Examples/Assets/Textures/Snow/snow_normal.jpg
-  artifactKey: Guid(24e31ecbf813d9e49bf7a1e0d4034916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Examples/Assets/Textures/Snow/snow_normal.jpg using Guid(24e31ecbf813d9e49bf7a1e0d4034916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '487d812a07ff0d4c36535cae775f1e6b') in 0.022788 seconds
-Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-TcpMessagingSession - receive error
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
