@@ -39,6 +39,7 @@ Material:
     m_Floats:
     - _Frequency1: 1
     - _LinearSpeed1: 1
+    - _NormlMult: 8.73
     - __dirty: 0
     m_Colors: []
   m_BuildTextureStacks: []
