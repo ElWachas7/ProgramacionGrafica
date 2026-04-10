@@ -37,9 +37,11 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _Frequency: 1
     - _Frequency1: 1
+    - _LinearSpeed: 1
     - _LinearSpeed1: 1
-    - _NormlMult: 8.73
+    - _NormlMult: 4
     - __dirty: 0
     m_Colors: []
   m_BuildTextureStacks: []
