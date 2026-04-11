@@ -25,6 +25,7 @@ Material:
     m_TexEnvs: []
     m_Ints: []
     m_Floats:
+    - _EdgeLength: 2
     - _Frequency: 1
     - _LinearSpeed: 1
     - __dirty: 0

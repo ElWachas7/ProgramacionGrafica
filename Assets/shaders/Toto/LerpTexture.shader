@@ -51,7 +51,7 @@ Shader "LerpTexture"
 }
 /*ASEBEGIN
 Version=18900
-0;391;1373;608;2842.182;570.2332;2.178227;True;True
+0;249.6;902.2;525.8;2465.349;271.5983;2.178227;True;False
 Node;AmplifyShaderEditor.RangedFloatNode;5;-1738.745,178.7124;Inherit;False;Property;_LinearSpeed;LinearSpeed;1;0;Create;True;0;0;0;False;0;False;0.5;1;0;0;0;1;FLOAT;0
 Node;AmplifyShaderEditor.SimpleTimeNode;8;-1562.745,178.7124;Inherit;False;1;0;FLOAT;1;False;1;FLOAT;0
 Node;AmplifyShaderEditor.RangedFloatNode;6;-1610.745,322.7125;Inherit;False;Property;_Frequency;Frequency;0;0;Create;True;0;0;0;False;0;False;0.5;1;0;0;0;1;FLOAT;0
@@ -82,4 +82,4 @@ WireConnection;3;1;4;0
 WireConnection;3;2;13;0
 WireConnection;0;0;3;0
 ASEEND*/
-//CHKSM=076EDD0736C9B0E1F3547BF3F0F544A76ECE60B1
+//CHKSM=7F1E4ACE745A6A1206C1E7FEA97AB740B901E317
