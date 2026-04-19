@@ -1,12 +1,37 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\PROYECTOS\\Unity\\ArcaneRoulette\\ProgramacionGrafica\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\PROYECTOS\\Unity\\ArcaneRoulette\\ProgramacionGrafica\\Assets\\shaders\\Toto\\Flag.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\shaders\\Toto\\Flag.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Flag.shader",
+              "DocumentMoniker": "D:\\PROYECTOS\\Unity\\ArcaneRoulette\\ProgramacionGrafica\\Assets\\shaders\\Toto\\Flag.shader",
+              "RelativeDocumentMoniker": "Assets\\shaders\\Toto\\Flag.shader",
+              "ToolTip": "D:\\PROYECTOS\\Unity\\ArcaneRoulette\\ProgramacionGrafica\\Assets\\shaders\\Toto\\Flag.shader",
+              "RelativeToolTip": "Assets\\shaders\\Toto\\Flag.shader",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
+              "WhenOpened": "2026-04-10T17:00:39.326Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
