@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1536
     height: 772.8
   m_ShowMode: 4
-  m_Title: CartoonSh..
+  m_Title: Lake
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -140,7 +140,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1029.6
+    width: 985.6
     height: 722.8
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 8096, y: 16192}
@@ -163,8 +163,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1029.6
-    height: 230.4
+    width: 985.6
+    height: 253.6
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 20}
@@ -189,12 +189,12 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 230.4
-    width: 1029.6
-    height: 492.4
+    y: 253.6
+    width: 985.6
+    height: 469.19998
   m_MinSize: {x: 481, y: 291}
   m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 19}
+  m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 22}
   - {fileID: 23}
@@ -203,10 +203,10 @@ MonoBehaviour:
   - {fileID: 17}
   - {fileID: 16}
   - {fileID: 15}
-  - {fileID: 14}
   - {fileID: 13}
-  m_Selected: 2
-  m_LastSelected: 4
+  - {fileID: 14}
+  m_Selected: 7
+  m_LastSelected: 0
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -224,14 +224,14 @@ MonoBehaviour:
   - {fileID: 11}
   m_Position:
     serializedVersion: 2
-    x: 1029.6
+    x: 985.6
     y: 0
-    width: 247.20007
+    width: 291.20007
     height: 722.8
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 140
+  controlID: 142
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -249,7 +249,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 247.20007
+    width: 291.20007
     height: 165.6
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
@@ -275,7 +275,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 165.6
-    width: 247.20007
+    width: 291.20007
     height: 557.19995
   m_MinSize: {x: 232, y: 271}
   m_MaxSize: {x: 10002, y: 10021}
@@ -304,8 +304,8 @@ MonoBehaviour:
     y: 0
     width: 259.19995
     height: 722.8
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 27}
   m_Panes:
   - {fileID: 27}
@@ -332,9 +332,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 304
-    width: 1028.6
-    height: 471.4
+    y: 327.2
+    width: 984.6
+    height: 448.19998
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -348,7 +348,7 @@ MonoBehaviour:
   m_customGraph: {fileID: 0}
   m_templatesManager: {fileID: 0}
   m_innerEditorVariables:
-    m_liveMode: 0
+    m_liveMode: 1
     m_outlineActiveMode: 0
     m_nodeParametersMaximized: 1
     m_nodePaletteMaximized: 0
@@ -377,24 +377,24 @@ MonoBehaviour:
   m_selectionMode: 0
   m_duplicatePreventionBuffer:
     m_availableUVChannelsArray: ffffffffffffffffffffffffffffffff
-  m_inactivityTime: 7090.137308099999
-  m_lastTimeSaved: 7089.673688
+  m_inactivityTime: 1742.6683378
+  m_lastTimeSaved: 1714.1687354
   m_cacheSaveOp: 0
   m_mainGraphInstance: {fileID: 0}
-  m_cameraOffset: {x: 2106.7227, y: 389.89362}
-  m_cameraZoom: 2.6189077
-  m_minNodePos: {x: -816.9481, y: -40.53444}
-  m_maxNodePos: {x: 206.4114, y: 116.2868}
+  m_cameraOffset: {x: 1672.1187, y: 639.94995}
+  m_cameraZoom: 2.31742
+  m_minNodePos: {x: -1725.3363, y: -881.0508}
+  m_maxNodePos: {x: 406.2035, y: 859.1525}
   m_isDirty: 0
   m_saveIsDirty: 0
-  m_repaintIsDirty: 0
-  m_liveShaderEditing: 0
+  m_repaintIsDirty: 1
+  m_liveShaderEditing: 1
   m_shaderIsModified: 0
-  m_lastOpenedLocation: 
+  m_lastOpenedLocation: Assets/shaders/Toto/EjericioCascada/Lake.shader
   m_zoomChanged: 0
-  m_lastWindowWidth: 1028.6
+  m_lastWindowWidth: 984.6
   m_graphCount: 1
-  m_currentInactiveTime: 0.3200031000005765
+  m_currentInactiveTime: 0
   m_currentNodeAvailability: 1
   m_nodeParametersWindowMaximized: 1
   m_paletteWindowMaximized: 1
@@ -412,7 +412,7 @@ MonoBehaviour:
 
       This message can be turned
       off via Preferences > Amplify Shader Editor > Show Async Message.'
-    ItemTime: 4334.34130859375
+    ItemTime: 121.87664794921875
     ItemOwnerId: -1
   m_maxMsgWidth: 400
   m_maximizeMessages: 0
@@ -443,9 +443,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 304
-    width: 1028.6
-    height: 471.4
+    y: 370.4
+    width: 984.6
+    height: 405
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -488,13 +488,13 @@ MonoBehaviour:
   m_selectionMode: 0
   m_duplicatePreventionBuffer:
     m_availableUVChannelsArray: ffffffffffffffffffffffffffffffff
-  m_inactivityTime: 7064.900408099999
-  m_lastTimeSaved: 7064.2949516
+  m_inactivityTime: 1360.4652065
+  m_lastTimeSaved: 1360.093963
   m_cacheSaveOp: 0
   m_mainGraphInstance: {fileID: 0}
-  m_cameraOffset: {x: 906.2709, y: 690.92267}
-  m_cameraZoom: 2.1743488
-  m_minNodePos: {x: -1001.42126, y: -373.65283}
+  m_cameraOffset: {x: 141.54779, y: 994.03186}
+  m_cameraZoom: 1
+  m_minNodePos: {x: -1001.42126, y: -910.3975}
   m_maxNodePos: {x: 859.1681, y: 569.1104}
   m_isDirty: 0
   m_saveIsDirty: 0
@@ -503,9 +503,9 @@ MonoBehaviour:
   m_shaderIsModified: 0
   m_lastOpenedLocation: Assets/shaders/Toto/EjericioCascada/Waterfall.shader
   m_zoomChanged: 0
-  m_lastWindowWidth: 1028.6
+  m_lastWindowWidth: 984.6
   m_graphCount: 1
-  m_currentInactiveTime: 26.118568900000355
+  m_currentInactiveTime: 0.5106177000000116
   m_currentNodeAvailability: 1
   m_nodeParametersWindowMaximized: 1
   m_paletteWindowMaximized: 1
@@ -523,7 +523,7 @@ MonoBehaviour:
 
       This message can be turned
       off via Preferences > Amplify Shader Editor > Show Async Message.'
-    ItemTime: 4308.96240234375
+    ItemTime: 124.94567108154297
     ItemOwnerId: -1
   m_maxMsgWidth: 400
   m_maximizeMessages: 0
@@ -554,9 +554,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 304
-    width: 1028.6
-    height: 471.4
+    y: 575.2
+    width: 984.6
+    height: 200.19998
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -599,14 +599,14 @@ MonoBehaviour:
   m_selectionMode: 0
   m_duplicatePreventionBuffer:
     m_availableUVChannelsArray: ffffffffffffffffffffffffffffffff
-  m_inactivityTime: 7703.6949187
-  m_lastTimeSaved: 7703.068075499999
+  m_inactivityTime: 1362.0627859
+  m_lastTimeSaved: 1361.6665398
   m_cacheSaveOp: 0
   m_mainGraphInstance: {fileID: 0}
-  m_cameraOffset: {x: 2538.9019, y: 244.96745}
-  m_cameraZoom: 2.9708652
-  m_minNodePos: {x: -966.1131, y: -67.59766}
-  m_maxNodePos: {x: 0, y: 479.83728}
+  m_cameraOffset: {x: 1578.0322, y: 47.06238}
+  m_cameraZoom: 1.622163
+  m_minNodePos: {x: -966.1131, y: -87.93813}
+  m_maxNodePos: {x: 41.00757, y: 479.83728}
   m_isDirty: 0
   m_saveIsDirty: 0
   m_repaintIsDirty: 0
@@ -614,9 +614,9 @@ MonoBehaviour:
   m_shaderIsModified: 0
   m_lastOpenedLocation: Assets/shaders/Toto/Refraccion.shader
   m_zoomChanged: 0
-  m_lastWindowWidth: 1028.6
+  m_lastWindowWidth: 984.6
   m_graphCount: 1
-  m_currentInactiveTime: 0.3360327000000325
+  m_currentInactiveTime: 18.886661699999877
   m_currentNodeAvailability: 1
   m_nodeParametersWindowMaximized: 1
   m_paletteWindowMaximized: 1
@@ -634,7 +634,7 @@ MonoBehaviour:
 
       This message can be turned
       off via Preferences > Amplify Shader Editor > Show Async Message.'
-    ItemTime: 4947.73583984375
+    ItemTime: 126.51827239990234
     ItemOwnerId: -1
   m_maxMsgWidth: 400
   m_maximizeMessages: 0
@@ -665,9 +665,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 304
+    y: 370.4
     width: 1028.6
-    height: 471.4
+    height: 405
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -710,24 +710,24 @@ MonoBehaviour:
   m_selectionMode: 0
   m_duplicatePreventionBuffer:
     m_availableUVChannelsArray: ffffffffffffffffffffffffffffffff
-  m_inactivityTime: 7103.5405458
+  m_inactivityTime: 385.0560132
   m_lastTimeSaved: 7103.085247399999
   m_cacheSaveOp: 0
   m_mainGraphInstance: {fileID: 0}
-  m_cameraOffset: {x: 2311.3833, y: 269.86163}
+  m_cameraOffset: {x: 2381.9253, y: 340.39932}
   m_cameraZoom: 2.383026
-  m_minNodePos: {x: -1659.2347, y: -352.89993}
-  m_maxNodePos: {x: 206.4114, y: 337.2931}
+  m_minNodePos: {x: -1659.235, y: -352.89993}
+  m_maxNodePos: {x: 206.4114, y: 402.9869}
   m_isDirty: 0
-  m_saveIsDirty: 0
-  m_repaintIsDirty: 0
+  m_saveIsDirty: 1
+  m_repaintIsDirty: 1
   m_liveShaderEditing: 0
   m_shaderIsModified: 0
-  m_lastOpenedLocation: 
+  m_lastOpenedLocation: Assets/shaders/Toto/WaterUnlit.shader
   m_zoomChanged: 0
   m_lastWindowWidth: 1028.6
   m_graphCount: 1
-  m_currentInactiveTime: 598.7353021999998
+  m_currentInactiveTime: 0.4961222999999677
   m_currentNodeAvailability: 1
   m_nodeParametersWindowMaximized: 1
   m_paletteWindowMaximized: 1
@@ -776,9 +776,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 304
+    y: 370.4
     width: 1028.6
-    height: 471.4
+    height: 405
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -821,24 +821,24 @@ MonoBehaviour:
   m_selectionMode: 0
   m_duplicatePreventionBuffer:
     m_availableUVChannelsArray: ffffffffffffffffffffffffffffffff
-  m_inactivityTime: 7705.5484504
-  m_lastTimeSaved: 7705.0987238
+  m_inactivityTime: 383.43948659999995
+  m_lastTimeSaved: 39.1793418
   m_cacheSaveOp: 0
   m_mainGraphInstance: {fileID: 0}
-  m_cameraOffset: {x: 1684.8682, y: 363.705}
-  m_cameraZoom: 2.238237
+  m_cameraOffset: {x: 1617.6605, y: 467.95322}
+  m_cameraZoom: 2.321623
   m_minNodePos: {x: -816.9481, y: -106.881714}
   m_maxNodePos: {x: 370.94293, y: 260.03967}
   m_isDirty: 0
-  m_saveIsDirty: 0
-  m_repaintIsDirty: 0
+  m_saveIsDirty: 1
+  m_repaintIsDirty: 1
   m_liveShaderEditing: 0
   m_shaderIsModified: 0
-  m_lastOpenedLocation: 
+  m_lastOpenedLocation: Assets/shaders/Toto/DepthFade.shader
   m_zoomChanged: 0
   m_lastWindowWidth: 1028.6
   m_graphCount: 1
-  m_currentInactiveTime: 0.39849279999998544
+  m_currentInactiveTime: 0.41403420000000324
   m_currentNodeAvailability: 1
   m_nodeParametersWindowMaximized: 1
   m_paletteWindowMaximized: 1
@@ -856,7 +856,7 @@ MonoBehaviour:
 
       This message can be turned
       off via Preferences > Amplify Shader Editor > Show Async Message.'
-    ItemTime: 4949.76611328125
+    ItemTime: 14.14966106414795
     ItemOwnerId: -1
   m_maxMsgWidth: 400
   m_maximizeMessages: 0
@@ -887,9 +887,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 304
+    y: 370.4
     width: 1028.6
-    height: 471.4
+    height: 405
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -932,24 +932,24 @@ MonoBehaviour:
   m_selectionMode: 0
   m_duplicatePreventionBuffer:
     m_availableUVChannelsArray: ffffffffffffffffffffffffffffffff
-  m_inactivityTime: 7071.6430497
-  m_lastTimeSaved: 7070.993696199999
+  m_inactivityTime: 382.13433389999994
+  m_lastTimeSaved: 238.6413944
   m_cacheSaveOp: 0
   m_mainGraphInstance: {fileID: 0}
-  m_cameraOffset: {x: 1871.9707, y: -83.56716}
-  m_cameraZoom: 2.3001263
-  m_minNodePos: {x: -1066.5186, y: -598.8618}
+  m_cameraOffset: {x: 2521.8428, y: 376.365}
+  m_cameraZoom: 3.5023193
+  m_minNodePos: {x: -1066.519, y: -598.8618}
   m_maxNodePos: {x: 344.88266, y: 1060.5741}
   m_isDirty: 0
-  m_saveIsDirty: 0
-  m_repaintIsDirty: 0
+  m_saveIsDirty: 1
+  m_repaintIsDirty: 1
   m_liveShaderEditing: 0
   m_shaderIsModified: 0
   m_lastOpenedLocation: Assets/shaders/Toto/Water.shader
   m_zoomChanged: 0
   m_lastWindowWidth: 1028.6
-  m_graphCount: 2
-  m_currentInactiveTime: 10.63249789999918
+  m_graphCount: 1
+  m_currentInactiveTime: 0.7110279000000332
   m_currentNodeAvailability: 1
   m_nodeParametersWindowMaximized: 1
   m_paletteWindowMaximized: 1
@@ -967,7 +967,7 @@ MonoBehaviour:
 
       This message can be turned
       off via Preferences > Amplify Shader Editor > Show Async Message.'
-    ItemTime: 4315.6611328125
+    ItemTime: 213.61280822753906
     ItemOwnerId: -1
   m_maxMsgWidth: 400
   m_maximizeMessages: 0
@@ -997,10 +997,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: -25600
-    y: -25339.201
+    x: 0
+    y: 370.4
     width: 1028.6
-    height: 471.4
+    height: 405
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1043,24 +1043,24 @@ MonoBehaviour:
   m_selectionMode: 0
   m_duplicatePreventionBuffer:
     m_availableUVChannelsArray: ffffffffffffffffffffffffffffffff
-  m_inactivityTime: 7707.2633172
+  m_inactivityTime: 379.49188539999994
   m_lastTimeSaved: 7706.7029248
   m_cacheSaveOp: 0
   m_mainGraphInstance: {fileID: 0}
-  m_cameraOffset: {x: 2837.0796, y: 263.20532}
+  m_cameraOffset: {x: 3266.7913, y: -82.248215}
   m_cameraZoom: 5.26606
   m_minNodePos: {x: -2238.8323, y: -72.22528}
   m_maxNodePos: {x: 2029.9382, y: 2279.7148}
   m_isDirty: 0
-  m_saveIsDirty: 0
-  m_repaintIsDirty: 1
+  m_saveIsDirty: 1
+  m_repaintIsDirty: 0
   m_liveShaderEditing: 0
   m_shaderIsModified: 0
   m_lastOpenedLocation: Assets/shaders/Toto/CartoonShader.shader
   m_zoomChanged: 0
   m_lastWindowWidth: 1028.6
   m_graphCount: 1
-  m_currentInactiveTime: 6.442925500000456
+  m_currentInactiveTime: 0.6775831000000494
   m_currentNodeAvailability: 4
   m_nodeParametersWindowMaximized: 1
   m_paletteWindowMaximized: 1
@@ -1115,8 +1115,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 73.6
-    width: 1028.6
-    height: 209.4
+    width: 984.6
+    height: 232.6
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1209,8 +1209,8 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: -112, y: -124}
-      snapOffsetDelta: {x: -0.000061035156, y: -0.0000076293945}
+      snapOffset: {x: -112.00006, y: -124}
+      snapOffsetDelta: {x: 0, y: -0.0000076293945}
       snapCorner: 3
       id: Orientation
       index: 0
@@ -1475,9 +1475,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 33.74547, y: -2.996946, z: -10.300723}
+    m_Target: {x: 28.70311, y: 5.2748327, z: -14.981807}
     speed: 2
-    m_Value: {x: 33.74547, y: -2.996946, z: -10.300723}
+    m_Value: {x: 28.70311, y: 5.2748327, z: -14.981807}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1523,13 +1523,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.345539, y: -0.2788244, z: 0.10437253, w: -0.8907181}
+    m_Target: {x: -0.34863144, y: -0.42541477, z: 0.17708147, w: -0.8170984}
     speed: 2
-    m_Value: {x: -0.3454201, y: -0.27755937, z: 0.103884466, w: -0.89042336}
+    m_Value: {x: -0.34738573, y: -0.4253024, z: 0.17643474, w: -0.8168915}
   m_Size:
-    m_Target: 4.8641825
+    m_Target: 3.213958
     speed: 2
-    m_Value: 4.8641825
+    m_Value: 3.213958
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1645,9 +1645,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 413.6
-    width: 871.8
-    height: 361.8
+    y: 575.2
+    width: 984.6
+    height: 200.19998
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1702,23 +1702,23 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 871.8
-      height: 340.8
-    m_Scale: {x: 0.39444444, y: 0.39444444}
-    m_Translation: {x: 435.9, y: 170.4}
+      width: 984.6
+      height: 179.19998
+    m_Scale: {x: 0.20740737, y: 0.20740739}
+    m_Translation: {x: 492.3, y: 89.59999}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -1105.0986
+      x: -2373.5896
       y: -432
-      width: 2210.1973
+      width: 4747.179
       height: 864
     m_MinimalGUI: 1
-  m_defaultScale: 0.39444444
-  m_LastWindowPixelSize: {x: 1089.75, y: 452.25}
+  m_defaultScale: 0.20740739
+  m_LastWindowPixelSize: {x: 1230.75, y: 250.24997}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -1781,9 +1781,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1029.6
+    x: 985.60004
     y: 73.6
-    width: 245.20007
+    width: 289.20007
     height: 144.6
   m_SerializedDataModeController:
     m_DataMode: 0
@@ -1798,9 +1798,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 212.4}
-      m_SelectedIDs: 8292feff
-      m_LastClickedID: -93566
-      m_ExpandedIDs: 3494feff2efbffff
+      m_SelectedIDs: 9a640000
+      m_LastClickedID: 0
+      m_ExpandedIDs: 2efbfffff0650000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1844,10 +1844,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 858.4
-    y: 296
-    width: 334
-    height: 479.4
+    x: 985.60004
+    y: 239.2
+    width: 289.20007
+    height: 536.19995
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1878,9 +1878,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1029.6
+    x: 985.60004
     y: 239.2
-    width: 245.20007
+    width: 289.20007
     height: 536.19995
   m_SerializedDataModeController:
     m_DataMode: 0
@@ -1909,18 +1909,18 @@ MonoBehaviour:
     m_ImportLogFlags: 0
     m_FilterByTypeIntersection: 0
   m_ViewMode: 1
-  m_StartGridSize: 32
+  m_StartGridSize: 39
   m_LastFolders:
   - Assets/shaders/Toto/EjericioCascada
-  m_LastFoldersGridSize: 32
+  m_LastFoldersGridSize: 39
   m_LastProjectPath: C:\Users\User\TODO\UNITY\REPOSITORIOS\ProgramacionGrafica
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 15.800049}
-    m_SelectedIDs: e4740000
-    m_LastClickedID: 29924
-    m_ExpandedIDs: 0000000066660000366700005867000000ca9a3bffffff7f
+    m_SelectedIDs: da670000
+    m_LastClickedID: 26586
+    m_ExpandedIDs: 00000000dc660000b8670000dc67000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1948,7 +1948,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000066660000
+    m_ExpandedIDs: 00000000dc660000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2001,9 +2001,9 @@ MonoBehaviour:
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
     m_ScrollPosition: {x: 0, y: 0}
-    m_GridSize: 32
+    m_GridSize: 39
   m_SkipHiddenPackages: 0
-  m_DirectoriesAreaWidth: 142.80002
+  m_DirectoriesAreaWidth: 50
 --- !u!114 &27
 MonoBehaviour:
   m_ObjectHideFlags: 52

@@ -63,9 +63,9 @@ Shader "Refraccion"
 }
 /*ASEBEGIN
 Version=18900
-0;304;1028.6;471.4;2538.902;244.9675;2.970865;True;False
-Node;AmplifyShaderEditor.GrabScreenPosition;3;-954.7663,91.60727;Inherit;False;0;0;5;FLOAT4;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
+0;370.4;984.6;405;1578.032;47.06238;1.622163;True;False
 Node;AmplifyShaderEditor.RangedFloatNode;7;-940.0898,395.0003;Inherit;False;Constant;_Float0;Float 0;1;0;Create;True;0;0;0;False;0;False;0;0;0;0;0;1;FLOAT;0
+Node;AmplifyShaderEditor.GrabScreenPosition;3;-948.2371,72.01968;Inherit;False;0;0;5;FLOAT4;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
 Node;AmplifyShaderEditor.DynamicAppendNode;4;-695.3624,101.3664;Inherit;False;FLOAT4;4;0;FLOAT;0;False;1;FLOAT;0;False;2;FLOAT;0;False;3;FLOAT;0;False;1;FLOAT4;0
 Node;AmplifyShaderEditor.SamplerNode;6;-704.9799,367.3011;Inherit;True;Property;_TextureSample0;Texture Sample 0;0;0;Create;True;0;0;0;False;0;False;-1;None;None;True;0;False;white;Auto;False;Object;-1;Auto;Texture2D;8;0;SAMPLER2D;;False;1;FLOAT2;0,0;False;2;FLOAT;0;False;3;FLOAT2;0,0;False;4;FLOAT2;0,0;False;5;FLOAT;1;False;6;FLOAT;0;False;7;SAMPLERSTATE;;False;5;COLOR;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
 Node;AmplifyShaderEditor.SimpleAddOpNode;5;-458.7113,112.7541;Inherit;False;2;2;0;FLOAT4;0,0,0,0;False;1;COLOR;0,0,0,0;False;1;FLOAT4;0
@@ -80,4 +80,4 @@ WireConnection;5;1;6;0
 WireConnection;2;0;5;0
 WireConnection;0;0;2;0
 ASEEND*/
-//CHKSM=C046CF67405BC6CECA2EF00563E5CD9DE7671F69
+//CHKSM=B355389BFC6F627B9B30CD7FB897EA80EB3F359C

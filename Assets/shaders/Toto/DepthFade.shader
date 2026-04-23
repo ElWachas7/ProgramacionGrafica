@@ -131,7 +131,7 @@ Shader "DepthFade"
 }
 /*ASEBEGIN
 Version=18900
-0;304;1028.6;471.4;1684.868;363.705;2.238237;True;False
+0;304;1028.6;471.4;1795;561.0259;2.538237;True;False
 Node;AmplifyShaderEditor.DepthFade;1;-816.9481,-27.46577;Inherit;False;True;False;True;2;1;FLOAT3;0,0,0;False;0;FLOAT;1;False;1;FLOAT;0
 Node;AmplifyShaderEditor.RangedFloatNode;3;-724.4631,102.213;Inherit;False;Property;_Bias;Bias;0;0;Create;True;0;0;0;False;0;False;0;0;0;0;0;1;FLOAT;0
 Node;AmplifyShaderEditor.SimpleAddOpNode;2;-521.3995,-28.47144;Inherit;False;2;2;0;FLOAT;0;False;1;FLOAT;0;False;1;FLOAT;0
@@ -140,7 +140,7 @@ Node;AmplifyShaderEditor.SimpleMultiplyOpNode;4;-305.2664,-30.482;Inherit;False;
 Node;AmplifyShaderEditor.RangedFloatNode;8;-306.2713,116.2868;Inherit;False;Property;_Pow;Pow;2;0;Create;True;0;0;0;False;0;False;0;0;0;0;0;1;FLOAT;0
 Node;AmplifyShaderEditor.PowerNode;5;-128.34,-30.48195;Inherit;False;False;2;0;FLOAT;0;False;1;FLOAT;1;False;1;FLOAT;0
 Node;AmplifyShaderEditor.SaturateNode;6;53.6129,-29.4767;Inherit;False;1;0;FLOAT;0;False;1;FLOAT;0
-Node;AmplifyShaderEditor.OneMinusNode;9;206.4114,-40.53444;Inherit;False;1;0;FLOAT;0;False;1;FLOAT;0
+Node;AmplifyShaderEditor.OneMinusNode;9;202.3503,-28.35089;Inherit;False;1;0;FLOAT;0;False;1;FLOAT;0
 Node;AmplifyShaderEditor.TemplateMultiPassMasterNode;0;370.9429,-31.16325;Float;False;True;-1;2;ASEMaterialInspector;100;1;DepthFade;0770190933193b94aaa3065e307002fa;True;Unlit;0;0;Unlit;2;False;True;0;1;False;-1;0;False;-1;0;1;False;-1;0;False;-1;True;0;False;-1;0;False;-1;False;False;False;False;False;False;False;False;False;True;0;False;-1;False;True;0;False;-1;False;True;True;True;True;True;0;False;-1;False;False;False;False;False;False;False;True;False;255;False;-1;255;False;-1;255;False;-1;7;False;-1;1;False;-1;1;False;-1;1;False;-1;7;False;-1;1;False;-1;1;False;-1;1;False;-1;False;True;1;False;-1;True;3;False;-1;True;True;0;False;-1;0;False;-1;True;1;RenderType=Opaque=RenderType;True;2;0;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;True;1;LightMode=ForwardBase;False;0;;0;0;Standard;1;Vertex Position,InvertActionOnDeselection;1;0;1;True;False;;False;0
 WireConnection;2;0;1;0
 WireConnection;2;1;3;0
@@ -152,4 +152,4 @@ WireConnection;6;0;5;0
 WireConnection;9;0;6;0
 WireConnection;0;0;9;0
 ASEEND*/
-//CHKSM=9C44CA772DC91BB600BAF3C6971ABA7B25048FC6
+//CHKSM=363FF6A72BB4AD10D64B4720AC31F9895D6812D8
