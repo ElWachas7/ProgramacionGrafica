@@ -15,7 +15,7 @@ C:/Users/User/TODO/UNITY/REPOSITORIOS/ProgramacionGrafica
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56409
+51496
 Successfully changed project path to: C:/Users/User/TODO/UNITY/REPOSITORIOS/ProgramacionGrafica
 C:/Users/User/TODO/UNITY/REPOSITORIOS/ProgramacionGrafica
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/User/TODO/UNITY/REPOSITORIOS/ProgramacionGrafica
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [17528] Host "[IP] 10.100.67.90 [Port] 0 [Flags] 2 [Guid] 2121221076 [EditorId] 2121221076 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-U9FQ2HB) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [29320] Host "[IP] 10.100.70.42 [Port] 0 [Flags] 2 [Guid] 1944341727 [EditorId] 1944341727 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-U9FQ2HB) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [17528] Host "[IP] 10.100.67.90 [Port] 0 [Flags] 2 [Guid] 2121221076 [EditorId] 2121221076 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-U9FQ2HB) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [29320] Host "[IP] 10.100.70.42 [Port] 0 [Flags] 2 [Guid] 1944341727 [EditorId] 1944341727 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-U9FQ2HB) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
-Refreshing native plugins compatible for Editor in 7.92 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 28.81 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.16f1 (d2c21f0ef2f1)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/Resources/UnitySubsystems
@@ -72,44 +72,44 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56188
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56428
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004688 seconds.
-- Loaded All Assemblies, in  0.274 seconds
+Registered in 0.013773 seconds.
+- Loaded All Assemblies, in  0.591 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.207 seconds
-Domain Reload Profiling: 479ms
-	BeginReloadAssembly (87ms)
+- Finished resetting the current domain, in  0.551 seconds
+Domain Reload Profiling: 1140ms
+	BeginReloadAssembly (175ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (26ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (43ms)
-	LoadAllAssembliesAndSetupDomain (108ms)
-		LoadAssemblies (85ms)
+	RebuildCommonClasses (62ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (115ms)
+	LoadAllAssembliesAndSetupDomain (219ms)
+		LoadAssemblies (172ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (106ms)
-			TypeCache.Refresh (105ms)
-				TypeCache.ScanAssembly (93ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (207ms)
+		AnalyzeDomain (217ms)
+			TypeCache.Refresh (214ms)
+				TypeCache.ScanAssembly (195ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (552ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (162ms)
+		SetupLoadedEditorAssemblies (436ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
-			SetLoadedEditorAssemblies (6ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (13ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (111ms)
-			ProcessInitializeOnLoadMethodAttributes (37ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (297ms)
+			ProcessInitializeOnLoadMethodAttributes (104ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -117,52 +117,52 @@ Domain Reload Profiling: 479ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.536 seconds
-Refreshing native plugins compatible for Editor in 3.46 ms, found 4 plugins.
+- Loaded All Assemblies, in  1.628 seconds
+Refreshing native plugins compatible for Editor in 12.45 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.478 seconds
-Domain Reload Profiling: 1012ms
-	BeginReloadAssembly (120ms)
+- Finished resetting the current domain, in  1.454 seconds
+Domain Reload Profiling: 3074ms
+	BeginReloadAssembly (367ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
+		DisableScriptedObjects (14ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (18ms)
-	RebuildCommonClasses (24ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (32ms)
-	LoadAllAssembliesAndSetupDomain (351ms)
-		LoadAssemblies (271ms)
+		CreateAndSetChildDomain (50ms)
+	RebuildCommonClasses (83ms)
+	RebuildNativeTypeToScriptingClass (25ms)
+	initialDomainReloadingComplete (124ms)
+	LoadAllAssembliesAndSetupDomain (1020ms)
+		LoadAssemblies (770ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (149ms)
-			TypeCache.Refresh (131ms)
-				TypeCache.ScanAssembly (118ms)
-			ScanForSourceGeneratedMonoScriptInfo (13ms)
-			ResolveRequiredComponents (3ms)
-	FinalizeReload (478ms)
+		AnalyzeDomain (461ms)
+			TypeCache.Refresh (409ms)
+				TypeCache.ScanAssembly (376ms)
+			ScanForSourceGeneratedMonoScriptInfo (38ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1455ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (334ms)
+		SetupLoadedEditorAssemblies (1040ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (4ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (11ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (53ms)
-			ProcessInitializeOnLoadAttributes (252ms)
-			ProcessInitializeOnLoadMethodAttributes (15ms)
-			AfterProcessingInitializeOnLoad (5ms)
+			BeforeProcessingInitializeOnLoad (155ms)
+			ProcessInitializeOnLoadAttributes (790ms)
+			ProcessInitializeOnLoadMethodAttributes (52ms)
+			AfterProcessingInitializeOnLoad (15ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
 Shader 'ASESampleShaders/Terrain/TerrainSnowCoverageFirstPass': dependency 'BaseMapShader' shader 'ASESampleShaders/TerrainBase' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 6.11 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Refreshing native plugins compatible for Editor in 15.49 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4306 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 43 unused Assets / (61.4 KB). Loaded Objects now: 4774.
-Memory consumption went from 282.0 MB to 282.0 MB.
-Total: 3.694000 ms (FindLiveObjects: 0.444200 ms CreateObjectMapping: 0.183300 ms MarkObjects: 2.863800 ms  DeleteObjects: 0.201400 ms)
+Unloading 4332 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (61.6 KB). Loaded Objects now: 4801.
+Memory consumption went from 289.5 MB to 289.5 MB.
+Total: 12.096200 ms (FindLiveObjects: 1.113300 ms CreateObjectMapping: 0.463800 ms MarkObjects: 9.750300 ms  DeleteObjects: 0.763100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -180,665 +180,236 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 96154.978300 seconds.
-  path: Assets/shaders/Toto/EjericioCascada/Lake.mat
-  artifactKey: Guid(0956682d02c28bf4fbd26f691451d202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/shaders/Toto/EjericioCascada/Lake.mat using Guid(0956682d02c28bf4fbd26f691451d202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ba866591b0701a7ce6813fcfe9d8b3d') in 0.092900 seconds
+  Time since last request: 84766.525776 seconds.
+  path: Assets/Scenes/Toto.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Toto.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06860493c27ab78f079eb21be60df601') in 0.006361 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 317.566493 seconds.
+  path: Assets/shaders/Toto/SEGUNDAMITAD/AllUI.shader
+  artifactKey: Guid(0e53062b19a6ce84fbbaa58a7969e301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shaders/Toto/SEGUNDAMITAD/AllUI.shader using Guid(0e53062b19a6ce84fbbaa58a7969e301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7491664d7354fb77df7e542f608fcb1d') in 0.025859 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 7.432701 seconds.
+  path: Assets/shaders/Toto/EjericioCascada/DepthFade.shader
+  artifactKey: Guid(432159326d571e24ba97d4798908afe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shaders/Toto/EjericioCascada/DepthFade.shader using Guid(432159326d571e24ba97d4798908afe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b0cc0f9e640f334550a5afd84a955b4') in 0.001844 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 12.296033 seconds.
+  path: Assets/shaders/Toto/EjericioCascada/LerpTexture.shader
+  artifactKey: Guid(1e33e349ba372614dbceaa7eeeb93162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shaders/Toto/EjericioCascada/LerpTexture.shader using Guid(1e33e349ba372614dbceaa7eeeb93162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '050926864a1c03256b6e4c3fd321f4af') in 0.002224 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 443.562322 seconds.
+  path: Assets/shaders/Toto/SEGUNDAMITAD/StencilMask.shader
+  artifactKey: Guid(246bb18394a6ea6469a93cbabc8e0802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shaders/Toto/SEGUNDAMITAD/StencilMask.shader using Guid(246bb18394a6ea6469a93cbabc8e0802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75a190dbbbe1be5d07d4533898444ff4') in 0.005518 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 2.652031 seconds.
-  path: Assets/shaders/Toto/EjericioCascada/Lake.mat
-  artifactKey: Guid(0956682d02c28bf4fbd26f691451d202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/shaders/Toto/EjericioCascada/Lake.mat using Guid(0956682d02c28bf4fbd26f691451d202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a644033e786e17bc3f28a70d61418df') in 0.007010 seconds
-Number of updated asset objects reloaded before import = 1
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 12.727132 seconds.
-  path: Assets/shaders/Toto/EjericioCascada/Lake.mat
-  artifactKey: Guid(0956682d02c28bf4fbd26f691451d202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/shaders/Toto/EjericioCascada/Lake.mat using Guid(0956682d02c28bf4fbd26f691451d202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63c7ee3d5cb0927a708a2b0dbbc2ef2d') in 0.006000 seconds
+  Time since last request: 6.986185 seconds.
+  path: Assets/shaders/Toto/SEGUNDAMITAD/StencilMask.mat
+  artifactKey: Guid(dc2ac7fb14ae1eb4bbeb1491e7ec0223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shaders/Toto/SEGUNDAMITAD/StencilMask.mat using Guid(dc2ac7fb14ae1eb4bbeb1491e7ec0223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdeb825d6af1b063c73f55a06005e959') in 0.220285 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 25.574166 seconds.
-  path: Assets/shaders/Toto/EjericioCascada/Lake.mat
-  artifactKey: Guid(0956682d02c28bf4fbd26f691451d202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/shaders/Toto/EjericioCascada/Lake.mat using Guid(0956682d02c28bf4fbd26f691451d202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '820552298192d8498934c0d55e1d0acf') in 0.004828 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 2.107114 seconds.
-  path: Assets/shaders/Toto/EjericioCascada/Lake.mat
-  artifactKey: Guid(0956682d02c28bf4fbd26f691451d202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/shaders/Toto/EjericioCascada/Lake.mat using Guid(0956682d02c28bf4fbd26f691451d202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ade46c47d8aa44dd6b9db3c9d4354ff') in 0.047948 seconds
-Number of updated asset objects reloaded before import = 1
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 35.005265 seconds.
-  path: Assets/shaders/Toto/EjericioCascada/Lake.mat
-  artifactKey: Guid(0956682d02c28bf4fbd26f691451d202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/shaders/Toto/EjericioCascada/Lake.mat using Guid(0956682d02c28bf4fbd26f691451d202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92e95cc60c2bdf04bfe4d5d3f86a13a3') in 0.012771 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 54.194666 seconds.
-  path: Assets/shaders/Toto/EjericioCascada/Waterfall.mat
-  artifactKey: Guid(b329d55dceb4a1149acccce24637ff3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/shaders/Toto/EjericioCascada/Waterfall.mat using Guid(b329d55dceb4a1149acccce24637ff3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9a82b8684d51a1fbe9ee82c259b18f9') in 0.107091 seconds
-Number of updated asset objects reloaded before import = 2
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 102.292316 seconds.
-  path: Assets/shaders/Toto/EjericioCascada/Waterfall.mat
-  artifactKey: Guid(b329d55dceb4a1149acccce24637ff3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/shaders/Toto/EjericioCascada/Waterfall.mat using Guid(b329d55dceb4a1149acccce24637ff3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27abb8452b8cc13254f192be1c9f4a74') in 0.007397 seconds
-Number of updated asset objects reloaded before import = 1
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 85.752647 seconds.
-  path: Assets/shaders/Toto/EjericioCascada/Lake.mat
-  artifactKey: Guid(0956682d02c28bf4fbd26f691451d202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/shaders/Toto/EjericioCascada/Lake.mat using Guid(0956682d02c28bf4fbd26f691451d202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a4a47eaa32d9a4a2f8689ee785ef1a2') in 0.017093 seconds
-Number of updated asset objects reloaded before import = 1
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 38.487665 seconds.
-  path: Assets/shaders/Toto/EjericioCascada/Lake.mat
-  artifactKey: Guid(0956682d02c28bf4fbd26f691451d202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/shaders/Toto/EjericioCascada/Lake.mat using Guid(0956682d02c28bf4fbd26f691451d202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '403ccb93c4144cefe4fb22bd3a7ba86c') in 0.039883 seconds
-Number of updated asset objects reloaded before import = 1
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 45.184324 seconds.
-  path: Assets/shaders/Toto/EjericioCascada/Lake.mat
-  artifactKey: Guid(0956682d02c28bf4fbd26f691451d202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/shaders/Toto/EjericioCascada/Lake.mat using Guid(0956682d02c28bf4fbd26f691451d202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f60fd6e8f6ebf510170a81ac2341cbe9') in 0.024613 seconds
-Number of updated asset objects reloaded before import = 1
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 37.436021 seconds.
-  path: Assets/shaders/Toto/EjericioCascada/Lake.mat
-  artifactKey: Guid(0956682d02c28bf4fbd26f691451d202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/shaders/Toto/EjericioCascada/Lake.mat using Guid(0956682d02c28bf4fbd26f691451d202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2f410b0dcfb03b900c8672233af3067') in 0.005829 seconds
-Number of updated asset objects reloaded before import = 1
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 12.824123 seconds.
-  path: Assets/shaders/Toto/EjericioCascada/Lake.mat
-  artifactKey: Guid(0956682d02c28bf4fbd26f691451d202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/shaders/Toto/EjericioCascada/Lake.mat using Guid(0956682d02c28bf4fbd26f691451d202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b0fa73055ee1511ad55c634721bb796') in 0.005305 seconds
-Number of updated asset objects reloaded before import = 1
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 9.545887 seconds.
-  path: Assets/shaders/Toto/EjericioCascada/Lake.mat
-  artifactKey: Guid(0956682d02c28bf4fbd26f691451d202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/shaders/Toto/EjericioCascada/Lake.mat using Guid(0956682d02c28bf4fbd26f691451d202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4cdc8a04a91f5f488a5b2db7967755d') in 0.005097 seconds
-Number of updated asset objects reloaded before import = 1
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 32.090154 seconds.
-  path: Assets/shaders/Toto/EjericioCascada/Lake.mat
-  artifactKey: Guid(0956682d02c28bf4fbd26f691451d202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/shaders/Toto/EjericioCascada/Lake.mat using Guid(0956682d02c28bf4fbd26f691451d202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bc9863d6173096bc05d8cfbd3edb5b0') in 0.005720 seconds
-Number of updated asset objects reloaded before import = 1
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 45.181697 seconds.
-  path: Assets/shaders/Toto/EjericioCascada/Lake.mat
-  artifactKey: Guid(0956682d02c28bf4fbd26f691451d202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/shaders/Toto/EjericioCascada/Lake.mat using Guid(0956682d02c28bf4fbd26f691451d202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3297661d98b63856b06bfc765b20fe3') in 0.005384 seconds
-Number of updated asset objects reloaded before import = 1
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 12.530415 seconds.
-  path: Assets/shaders/Toto/EjericioCascada/Lake.mat
-  artifactKey: Guid(0956682d02c28bf4fbd26f691451d202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/shaders/Toto/EjericioCascada/Lake.mat using Guid(0956682d02c28bf4fbd26f691451d202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c773c337432170df5af7607372e4f51e') in 0.005128 seconds
-Number of updated asset objects reloaded before import = 1
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 139.950222 seconds.
-  path: Assets/shaders/Toto/EjericioCascada/Lake.mat
-  artifactKey: Guid(0956682d02c28bf4fbd26f691451d202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/shaders/Toto/EjericioCascada/Lake.mat using Guid(0956682d02c28bf4fbd26f691451d202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfe26ddd6c4f300aca2dca217808c76c') in 0.006887 seconds
-Number of updated asset objects reloaded before import = 1
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 43.530825 seconds.
-  path: Assets/shaders/Toto/EjericioCascada/Lake.mat
-  artifactKey: Guid(0956682d02c28bf4fbd26f691451d202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/shaders/Toto/EjericioCascada/Lake.mat using Guid(0956682d02c28bf4fbd26f691451d202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b701a7216c45e923dc93f9241d369fc') in 0.006184 seconds
-Number of updated asset objects reloaded before import = 1
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 2.364724 seconds.
-  path: Assets/shaders/Toto/EjericioCascada/Lake.mat
-  artifactKey: Guid(0956682d02c28bf4fbd26f691451d202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/shaders/Toto/EjericioCascada/Lake.mat using Guid(0956682d02c28bf4fbd26f691451d202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9323e534841f70494dee885fd0303f4') in 0.046111 seconds
-Number of updated asset objects reloaded before import = 1
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 29.957548 seconds.
-  path: Assets/shaders/Toto/EjericioCascada/Lake.mat
-  artifactKey: Guid(0956682d02c28bf4fbd26f691451d202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/shaders/Toto/EjericioCascada/Lake.mat using Guid(0956682d02c28bf4fbd26f691451d202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07d0251d0dbccf5af99560eaab1a56ce') in 0.015760 seconds
-Number of updated asset objects reloaded before import = 1
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 32.537772 seconds.
-  path: Assets/shaders/Toto/refraccion.mat
-  artifactKey: Guid(f048b39662a5c584ea6dbe5c7687318c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/shaders/Toto/refraccion.mat using Guid(f048b39662a5c584ea6dbe5c7687318c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97eab3b3080474ea6207925a5889a64c') in 0.120300 seconds
-Number of updated asset objects reloaded before import = 1
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/shaders/Toto/WaterUnlit.mat
-  artifactKey: Guid(ba90812b261e2364496949fa5ca33f5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/shaders/Toto/WaterUnlit.mat using Guid(ba90812b261e2364496949fa5ca33f5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed62d005cdd328fa3500d25c10987fd6') in 0.014673 seconds
+  Time since last request: 1238.523116 seconds.
+  path: Assets/shaders/Toto/SEGUNDAMITAD/Reader.shader
+  artifactKey: Guid(edbba131901bb7e4fa7cd883caddcf40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shaders/Toto/SEGUNDAMITAD/Reader.shader using Guid(edbba131901bb7e4fa7cd883caddcf40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfe8de65913c3e4ca26ecbeea27954bf') in 0.005975 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 1.137213 seconds.
-  path: Assets/shaders/Toto/CartoonShader.mat
-  artifactKey: Guid(71a46061328cbad43a5a8920ee2486b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/shaders/Toto/CartoonShader.mat using Guid(71a46061328cbad43a5a8920ee2486b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0f4a594a28faca6e263a583bd319be5') in 0.024363 seconds
+  Time since last request: 15.468323 seconds.
+  path: Assets/shaders/Toto/SEGUNDAMITAD/Reader.mat
+  artifactKey: Guid(333c61ce6928c5f43947cf7ff374f402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shaders/Toto/SEGUNDAMITAD/Reader.mat using Guid(333c61ce6928c5f43947cf7ff374f402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0bd74c6a9786394d9eb9ee56a8f70da') in 0.343807 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 166.823532 seconds.
+  path: Assets/shaders/Toto/SEGUNDAMITAD/Reader.mat
+  artifactKey: Guid(333c61ce6928c5f43947cf7ff374f402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shaders/Toto/SEGUNDAMITAD/Reader.mat using Guid(333c61ce6928c5f43947cf7ff374f402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be95d82c253717dcfee073f927ed44e7') in 0.265761 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 30.478410 seconds.
+  path: Assets/shaders/Toto/SEGUNDAMITAD/Reader.mat
+  artifactKey: Guid(333c61ce6928c5f43947cf7ff374f402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shaders/Toto/SEGUNDAMITAD/Reader.mat using Guid(333c61ce6928c5f43947cf7ff374f402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '316aaf596b90feaa0302eb7a0846fde9') in 0.386084 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 19.766848 seconds.
+  path: Assets/shaders/Toto/SEGUNDAMITAD/StencilMask.mat
+  artifactKey: Guid(dc2ac7fb14ae1eb4bbeb1491e7ec0223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shaders/Toto/SEGUNDAMITAD/StencilMask.mat using Guid(dc2ac7fb14ae1eb4bbeb1491e7ec0223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7866648dccbd08be76ac39922d3244c6') in 0.039283 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 13.724994 seconds.
+  path: Assets/shaders/Toto/SEGUNDAMITAD/StencilMask.mat
+  artifactKey: Guid(dc2ac7fb14ae1eb4bbeb1491e7ec0223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shaders/Toto/SEGUNDAMITAD/StencilMask.mat using Guid(dc2ac7fb14ae1eb4bbeb1491e7ec0223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bf028e2a2672dd85ccdea05d0d5d4cc') in 0.046478 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 128.738443 seconds.
+  path: Assets/AmplifyShaderEditor/Examples/Built-In/AnimatedFire/AnimatedFire.mat
+  artifactKey: Guid(63ea5eae6d954a14292033589d0d4275) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyShaderEditor/Examples/Built-In/AnimatedFire/AnimatedFire.mat using Guid(63ea5eae6d954a14292033589d0d4275) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a6f52d1c9e32f08c2029e59350f3733') in 0.198544 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.666705 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8756f7c291147a75e95d0f4a0d9e7e56') in 0.084926 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 4
 ========================================================================
 Received Import Request.
-  Time since last request: 1.148227 seconds.
-  path: Assets/shaders/Toto/EjericioCascada/Lake.mat
-  artifactKey: Guid(0956682d02c28bf4fbd26f691451d202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/shaders/Toto/EjericioCascada/Lake.mat using Guid(0956682d02c28bf4fbd26f691451d202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42f7ab90c56ca7ed5b93bb9d5ba4c870') in 0.017789 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 52.720789 seconds.
-  path: Assets/shaders/Toto/EjericioCascada/Flowmap.jpg
-  artifactKey: Guid(ec6007209895f354c9d199e8ded15bb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/shaders/Toto/EjericioCascada/Flowmap.jpg using Guid(ec6007209895f354c9d199e8ded15bb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2baf015bb8131c018a0d1178c3d8f523') in 0.024615 seconds
+  Time since last request: 3.341835 seconds.
+  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Canvas/Materials/MaterialModeIcon.mat
+  artifactKey: Guid(12212aae6b2f5c04da8edc887643d5d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Canvas/Materials/MaterialModeIcon.mat using Guid(12212aae6b2f5c04da8edc887643d5d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a2dc2b97d3d31f8b71cb800cc9b0732') in 0.067654 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 23.493971 seconds.
-  path: Assets/shaders/Toto/EjericioCascada/Lake.mat
-  artifactKey: Guid(0956682d02c28bf4fbd26f691451d202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/shaders/Toto/EjericioCascada/Lake.mat using Guid(0956682d02c28bf4fbd26f691451d202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8772698e2a08297d5927dfb7be11dab') in 0.015728 seconds
+  Time since last request: 63.713135 seconds.
+  path: Assets/shaders/Toto/SEGUNDAMITAD/Materials
+  artifactKey: Guid(62206ed016bedf14a911e8e9b3c790f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shaders/Toto/SEGUNDAMITAD/Materials using Guid(62206ed016bedf14a911e8e9b3c790f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49421cdfd312b1ef3f33db08f5da467f') in 0.002137 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 1.511951 seconds.
-  path: Assets/shaders/Toto/EjericioCascada/Lake.mat
-  artifactKey: Guid(0956682d02c28bf4fbd26f691451d202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/shaders/Toto/EjericioCascada/Lake.mat using Guid(0956682d02c28bf4fbd26f691451d202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69d14654629e059a57d4b63a8906608e') in 0.045902 seconds
-Number of updated asset objects reloaded before import = 1
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 21.863554 seconds.
-  path: Assets/shaders/Toto/EjericioCascada/Lake.mat
-  artifactKey: Guid(0956682d02c28bf4fbd26f691451d202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/shaders/Toto/EjericioCascada/Lake.mat using Guid(0956682d02c28bf4fbd26f691451d202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '061c4660079ad0fffe3f4d9a06daac89') in 0.047829 seconds
-Number of updated asset objects reloaded before import = 1
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 8.537065 seconds.
-  path: Assets/shaders/Toto/EjericioCascada/Lake.mat
-  artifactKey: Guid(0956682d02c28bf4fbd26f691451d202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/shaders/Toto/EjericioCascada/Lake.mat using Guid(0956682d02c28bf4fbd26f691451d202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '678d743cf347432d1cd03b1742658448') in 0.015369 seconds
-Number of updated asset objects reloaded before import = 1
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 32.904956 seconds.
-  path: Assets/shaders/Toto/EjericioCascada/Lake.mat
-  artifactKey: Guid(0956682d02c28bf4fbd26f691451d202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/shaders/Toto/EjericioCascada/Lake.mat using Guid(0956682d02c28bf4fbd26f691451d202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe5413101e779171efd6154a33399672') in 0.047350 seconds
-Number of updated asset objects reloaded before import = 1
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 13.110317 seconds.
-  path: Assets/shaders/Toto/EjericioCascada/Lake.mat
-  artifactKey: Guid(0956682d02c28bf4fbd26f691451d202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/shaders/Toto/EjericioCascada/Lake.mat using Guid(0956682d02c28bf4fbd26f691451d202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8aae430bc4b9d88667a761c85a1dce0') in 0.017090 seconds
-Number of updated asset objects reloaded before import = 1
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 35.048932 seconds.
-  path: Assets/shaders/Toto/EjericioCascada/Lake.mat
-  artifactKey: Guid(0956682d02c28bf4fbd26f691451d202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/shaders/Toto/EjericioCascada/Lake.mat using Guid(0956682d02c28bf4fbd26f691451d202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d5ebd4005394dd55783b48ce1896641') in 0.012764 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 63.583261 seconds.
-  path: Assets/shaders/Toto/EjericioCascada/Lake.mat
-  artifactKey: Guid(0956682d02c28bf4fbd26f691451d202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/shaders/Toto/EjericioCascada/Lake.mat using Guid(0956682d02c28bf4fbd26f691451d202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd9907c8e2c51a646e42488239ba2ca9') in 0.014919 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.338 seconds
-Refreshing native plugins compatible for Editor in 3.34 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.891 seconds
-Domain Reload Profiling: 1227ms
-	BeginReloadAssembly (118ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (3ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (25ms)
-	RebuildCommonClasses (23ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (21ms)
-	LoadAllAssembliesAndSetupDomain (165ms)
-		LoadAssemblies (221ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (10ms)
-			TypeCache.Refresh (5ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (3ms)
-	FinalizeReload (892ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (317ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (4ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (50ms)
-			ProcessInitializeOnLoadAttributes (236ms)
-			ProcessInitializeOnLoadMethodAttributes (16ms)
-			AfterProcessingInitializeOnLoad (5ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
-Shader 'ASESampleShaders/Terrain/TerrainSnowCoverageFirstPass': dependency 'BaseMapShader' shader 'ASESampleShaders/TerrainBase' not found
-Refreshing native plugins compatible for Editor in 3.53 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3984 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 34 unused Assets / (35.2 KB). Loaded Objects now: 4821.
-Memory consumption went from 213.3 MB to 213.3 MB.
-Total: 2.506100 ms (FindLiveObjects: 0.197100 ms CreateObjectMapping: 0.097500 ms MarkObjects: 2.152500 ms  DeleteObjects: 0.058300 ms)
+  Time since last request: 0.068761 seconds.
+  path: Assets/shaders/Toto/SEGUNDAMITAD/Materials/New Render Texture.mat
+  artifactKey: Guid(905eb72693c3fcd4ea3917a506b1e83e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shaders/Toto/SEGUNDAMITAD/Materials/New Render Texture.mat using Guid(905eb72693c3fcd4ea3917a506b1e83e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Error assigning 3D texture to 2D texture property '_MainTex': Dimensions must match
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Material:HasProperty (string)
+UnityEditor.Utils.PerformanceChecks:CheckMaterial (UnityEngine.Material,UnityEditor.BuildTarget)
+UnityEditor.MaterialEditor:PropertiesChanged ()
+UnityEditor.MaterialEditor:OnEnable ()
+UnityEditor.Editor:CreateEditorWithContext (UnityEngine.Object[],UnityEngine.Object,System.Type)
+UnityEditor.Editor:CreateEditor (UnityEngine.Object,System.Type)
+UnityEditor.Editor:CreateEditor (UnityEngine.Object)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
 
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 50.375587 seconds.
-  path: Assets/shaders/Toto/EjericioCascada/Lake.mat
-  artifactKey: Guid(0956682d02c28bf4fbd26f691451d202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/shaders/Toto/EjericioCascada/Lake.mat using Guid(0956682d02c28bf4fbd26f691451d202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10e3cf34b2d84585c3dc77d9a569d7d2') in 0.076732 seconds
-Number of updated asset objects reloaded before import = 1
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 22.028771 seconds.
-  path: Assets/shaders/Toto/EjericioCascada/Lake.mat
-  artifactKey: Guid(0956682d02c28bf4fbd26f691451d202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/shaders/Toto/EjericioCascada/Lake.mat using Guid(0956682d02c28bf4fbd26f691451d202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89ba1e7e7f89a4505802d9b642c00e0f') in 0.016082 seconds
-Number of updated asset objects reloaded before import = 1
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 19.766920 seconds.
-  path: Assets/shaders/Toto/EjericioCascada/Lake.mat
-  artifactKey: Guid(0956682d02c28bf4fbd26f691451d202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/shaders/Toto/EjericioCascada/Lake.mat using Guid(0956682d02c28bf4fbd26f691451d202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ec454f4201a395dc12852f9d77a1dc5') in 0.049931 seconds
-Number of updated asset objects reloaded before import = 1
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 34.846726 seconds.
-  path: Assets/shaders/Toto/EjericioCascada/Lake.mat
-  artifactKey: Guid(0956682d02c28bf4fbd26f691451d202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/shaders/Toto/EjericioCascada/Lake.mat using Guid(0956682d02c28bf4fbd26f691451d202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '621d68fed3e2829fbe450710fe6f1871') in 0.016764 seconds
-Number of updated asset objects reloaded before import = 1
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 17.542659 seconds.
-  path: Assets/shaders/Toto/EjericioCascada/Lake.mat
-  artifactKey: Guid(0956682d02c28bf4fbd26f691451d202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/shaders/Toto/EjericioCascada/Lake.mat using Guid(0956682d02c28bf4fbd26f691451d202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e453b29257b2a0f1854263a379861a7') in 0.015050 seconds
-Number of updated asset objects reloaded before import = 1
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 2.294288 seconds.
-  path: Assets/shaders/Toto/EjericioCascada/Lake.mat
-  artifactKey: Guid(0956682d02c28bf4fbd26f691451d202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/shaders/Toto/EjericioCascada/Lake.mat using Guid(0956682d02c28bf4fbd26f691451d202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff6f0caa6735a1223e897523ebb78979') in 0.017096 seconds
-Number of updated asset objects reloaded before import = 1
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 7.422296 seconds.
-  path: Assets/shaders/Toto/EjericioCascada/Lake.mat
-  artifactKey: Guid(0956682d02c28bf4fbd26f691451d202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/shaders/Toto/EjericioCascada/Lake.mat using Guid(0956682d02c28bf4fbd26f691451d202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcc8c2d5415045dcd367d00ef1343b47') in 0.015721 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 2.675832 seconds.
-  path: Assets/shaders/Toto/EjericioCascada/Lake.mat
-  artifactKey: Guid(0956682d02c28bf4fbd26f691451d202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/shaders/Toto/EjericioCascada/Lake.mat using Guid(0956682d02c28bf4fbd26f691451d202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f4b286db5536367587e678871ce9a74') in 0.016578 seconds
-Number of updated asset objects reloaded before import = 1
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 14.484104 seconds.
-  path: Assets/shaders/Toto/EjericioCascada/Waterfall.mat
-  artifactKey: Guid(b329d55dceb4a1149acccce24637ff3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/shaders/Toto/EjericioCascada/Waterfall.mat using Guid(b329d55dceb4a1149acccce24637ff3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35e5ea12637d769729d6a834e4e29c1b') in 0.094972 seconds
-Number of updated asset objects reloaded before import = 1
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.310 seconds
-Refreshing native plugins compatible for Editor in 3.09 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.925 seconds
-Domain Reload Profiling: 1234ms
-	BeginReloadAssembly (106ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (3ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (25ms)
-	RebuildCommonClasses (21ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (20ms)
-	LoadAllAssembliesAndSetupDomain (154ms)
-		LoadAssemblies (199ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (10ms)
-			TypeCache.Refresh (5ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (3ms)
-	FinalizeReload (926ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (304ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (4ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (50ms)
-			ProcessInitializeOnLoadAttributes (225ms)
-			ProcessInitializeOnLoadMethodAttributes (15ms)
-			AfterProcessingInitializeOnLoad (5ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Shader 'ASESampleShaders/Terrain/TerrainSnowCoverageFirstPass': dependency 'BaseMapShader' shader 'ASESampleShaders/TerrainBase' not found
-Refreshing native plugins compatible for Editor in 3.47 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3984 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 34 unused Assets / (35.3 KB). Loaded Objects now: 4825.
-Memory consumption went from 215.3 MB to 215.2 MB.
-Total: 2.494400 ms (FindLiveObjects: 0.214900 ms CreateObjectMapping: 0.086000 ms MarkObjects: 2.121000 ms  DeleteObjects: 0.071600 ms)
+[C:\build\output\unity\unity\Runtime\Shaders\ShaderImpl\ShaderTextureProperty.h line 41]
 
-Prepare: number of updated asset objects reloaded= 1
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 54.016659 seconds.
-  path: Assets/shaders/Toto/EjericioCascada/Lake.mat
-  artifactKey: Guid(0956682d02c28bf4fbd26f691451d202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/shaders/Toto/EjericioCascada/Lake.mat using Guid(0956682d02c28bf4fbd26f691451d202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ce4abf4499747c567aab167ec8e7783') in 0.089245 seconds
-Number of updated asset objects reloaded before import = 1
+ -> (artifact id: 'a6d7252227acea347953abb05d79fdf2') in 0.039524 seconds
+Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 2.142695 seconds.
-  path: Assets/shaders/Toto/EjericioCascada/Lake.mat
-  artifactKey: Guid(0956682d02c28bf4fbd26f691451d202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/shaders/Toto/EjericioCascada/Lake.mat using Guid(0956682d02c28bf4fbd26f691451d202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c6d40b9bdbb2d49b037d18355111d1d') in 0.005777 seconds
-Number of updated asset objects reloaded before import = 1
+  Time since last request: 73.565416 seconds.
+  path: Assets/AmplifyShaderEditor/Examples/Built-In/StencilExample/RefractionsPanels/AnimatedRefractionBlue.mat
+  artifactKey: Guid(ca405353e0ac8b349866703f4ca689fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyShaderEditor/Examples/Built-In/StencilExample/RefractionsPanels/AnimatedRefractionBlue.mat using Guid(ca405353e0ac8b349866703f4ca689fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fea0991144aac04f277b80df58b0db7') in 0.092897 seconds
+Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 3.423788 seconds.
-  path: Assets/shaders/Toto/EjericioCascada/Lake.mat
-  artifactKey: Guid(0956682d02c28bf4fbd26f691451d202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/shaders/Toto/EjericioCascada/Lake.mat using Guid(0956682d02c28bf4fbd26f691451d202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '223ed2178d7f19c89733c7eee9fbb6f9') in 0.017452 seconds
+  Time since last request: 0.000047 seconds.
+  path: Assets/AmplifyShaderEditor/Examples/Built-In/AnimatedUVDistortion/AnimatedUVDistortion.mat
+  artifactKey: Guid(92c807cb5cbfe4f469c3292203fea271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyShaderEditor/Examples/Built-In/AnimatedUVDistortion/AnimatedUVDistortion.mat using Guid(92c807cb5cbfe4f469c3292203fea271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '904a822451f7c918c05d04141d43e6d0') in 0.134059 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 20.766604 seconds.
-  path: Assets/shaders/Toto/EjericioCascada/Lake.mat
-  artifactKey: Guid(0956682d02c28bf4fbd26f691451d202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/shaders/Toto/EjericioCascada/Lake.mat using Guid(0956682d02c28bf4fbd26f691451d202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a4aab4ca37b60ab3650a28c450f7b06') in 0.013459 seconds
+  Time since last request: 0.000022 seconds.
+  path: Assets/AmplifyShaderEditor/Examples/Built-In/StencilExample/RefractionsPanels/AnimatedRefractionWhite.mat
+  artifactKey: Guid(98006471f046a5647a9428392c010550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyShaderEditor/Examples/Built-In/StencilExample/RefractionsPanels/AnimatedRefractionWhite.mat using Guid(98006471f046a5647a9428392c010550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f0da274021e7452a21249d738e31272') in 0.024355 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.759066 seconds.
+  path: Assets/AmplifyShaderEditor/Examples/Built-In/PlaneClip/Materials
+  artifactKey: Guid(9414b14ee88312844b992ea4b2a02002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyShaderEditor/Examples/Built-In/PlaneClip/Materials using Guid(9414b14ee88312844b992ea4b2a02002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4601cce94b89dc948d084d4bf0f8fe5b') in 0.001598 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.104650 seconds.
+  path: Assets/AmplifyShaderEditor/Examples/Built-In/PlaneClip/Materials/base.mat
+  artifactKey: Guid(564b967f5e035ab45b4bd1e9bc9e2fa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyShaderEditor/Examples/Built-In/PlaneClip/Materials/base.mat using Guid(564b967f5e035ab45b4bd1e9bc9e2fa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ef515fa1aa26938e16253f7c81d9d0d') in 0.154362 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 2.410858 seconds.
-  path: Assets/shaders/Toto/EjericioCascada/Lake.mat
-  artifactKey: Guid(0956682d02c28bf4fbd26f691451d202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/shaders/Toto/EjericioCascada/Lake.mat using Guid(0956682d02c28bf4fbd26f691451d202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9045f1ec99e27b8374d25e26d16ec6a4') in 0.016987 seconds
+  Time since last request: 0.000048 seconds.
+  path: Assets/AmplifyShaderEditor/Examples/Built-In/PlaneClip/Materials/road.mat
+  artifactKey: Guid(674c7567d0fc65e40bda047d89de3ae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyShaderEditor/Examples/Built-In/PlaneClip/Materials/road.mat using Guid(674c7567d0fc65e40bda047d89de3ae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e7046a83a019c4860703a9003445d70') in 0.031747 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 1.377350 seconds.
-  path: Assets/shaders/Toto/EjericioCascada/Lake.mat
-  artifactKey: Guid(0956682d02c28bf4fbd26f691451d202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/shaders/Toto/EjericioCascada/Lake.mat using Guid(0956682d02c28bf4fbd26f691451d202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5b0932a3dbbf3ce5325e220d45384dd') in 0.012645 seconds
+  Time since last request: 0.000040 seconds.
+  path: Assets/AmplifyShaderEditor/Examples/Built-In/PlaneClip/Materials/embankment_02.mat
+  artifactKey: Guid(e70f9ff59ace5cf45bc2633bda942f53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyShaderEditor/Examples/Built-In/PlaneClip/Materials/embankment_02.mat using Guid(e70f9ff59ace5cf45bc2633bda942f53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dffdc707f7a103bc890a00a41149c7d') in 0.029202 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 1.775611 seconds.
-  path: Assets/shaders/Toto/EjericioCascada/Lake.mat
-  artifactKey: Guid(0956682d02c28bf4fbd26f691451d202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/shaders/Toto/EjericioCascada/Lake.mat using Guid(0956682d02c28bf4fbd26f691451d202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64edc72b3070566f7ab8a9496c33a148') in 0.013711 seconds
+  Time since last request: 0.000039 seconds.
+  path: Assets/AmplifyShaderEditor/Examples/Built-In/PlaneClip/Materials/embankment_01.mat
+  artifactKey: Guid(da0ecd25f4ffde0449c4de829e2fd253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyShaderEditor/Examples/Built-In/PlaneClip/Materials/embankment_01.mat using Guid(da0ecd25f4ffde0449c4de829e2fd253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '436ce753a3ec02856ddd5d14f5d8620f') in 0.031824 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 2.636580 seconds.
-  path: Assets/shaders/Toto/EjericioCascada/Lake.mat
-  artifactKey: Guid(0956682d02c28bf4fbd26f691451d202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/shaders/Toto/EjericioCascada/Lake.mat using Guid(0956682d02c28bf4fbd26f691451d202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca1ac45f3556c01bfb0b96449be1404b') in 0.016247 seconds
-Number of updated asset objects reloaded before import = 1
+  Time since last request: 0.000048 seconds.
+  path: Assets/AmplifyShaderEditor/Examples/Built-In/PlaneClip/Materials/foundation.mat
+  artifactKey: Guid(c64c850baa4d5e84c9c62d9924bdb3ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyShaderEditor/Examples/Built-In/PlaneClip/Materials/foundation.mat using Guid(c64c850baa4d5e84c9c62d9924bdb3ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93c19680d41f226dd151a2f5324d951e') in 0.022609 seconds
+Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 6.922961 seconds.
-  path: Assets/shaders/Toto/EjericioCascada/Lake.mat
-  artifactKey: Guid(0956682d02c28bf4fbd26f691451d202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/shaders/Toto/EjericioCascada/Lake.mat using Guid(0956682d02c28bf4fbd26f691451d202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbb0fb057c56c6ebcdef4284c4a5794a') in 0.035194 seconds
-Number of updated asset objects reloaded before import = 1
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 3.715709 seconds.
-  path: Assets/shaders/Toto/EjericioCascada/Lake.mat
-  artifactKey: Guid(0956682d02c28bf4fbd26f691451d202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/shaders/Toto/EjericioCascada/Lake.mat using Guid(0956682d02c28bf4fbd26f691451d202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d0ad0d7a85f861414d4db06a9c3f8fa') in 0.015036 seconds
-Number of updated asset objects reloaded before import = 1
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 44.623799 seconds.
-  path: Assets/shaders/Toto/EjericioCascada/Lake.mat
-  artifactKey: Guid(0956682d02c28bf4fbd26f691451d202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/shaders/Toto/EjericioCascada/Lake.mat using Guid(0956682d02c28bf4fbd26f691451d202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bbb3f65b0ec811718737047fd38fa52') in 0.034528 seconds
-Number of updated asset objects reloaded before import = 1
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 1.826399 seconds.
-  path: Assets/shaders/Toto/EjericioCascada/Lake.mat
-  artifactKey: Guid(0956682d02c28bf4fbd26f691451d202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/shaders/Toto/EjericioCascada/Lake.mat using Guid(0956682d02c28bf4fbd26f691451d202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f0c143cd775ea039f2d08ef7a49b48d') in 0.049852 seconds
-Number of updated asset objects reloaded before import = 1
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 2.197916 seconds.
-  path: Assets/shaders/Toto/EjericioCascada/Lake.mat
-  artifactKey: Guid(0956682d02c28bf4fbd26f691451d202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/shaders/Toto/EjericioCascada/Lake.mat using Guid(0956682d02c28bf4fbd26f691451d202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1b397c9219251f15e2b11c0f2863f70') in 0.017366 seconds
-Number of updated asset objects reloaded before import = 1
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 1.105539 seconds.
-  path: Assets/shaders/Toto/EjericioCascada/Lake.mat
-  artifactKey: Guid(0956682d02c28bf4fbd26f691451d202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/shaders/Toto/EjericioCascada/Lake.mat using Guid(0956682d02c28bf4fbd26f691451d202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f219334417e7f083c9360c8577f83443') in 0.015264 seconds
-Number of updated asset objects reloaded before import = 1
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 4.146628 seconds.
-  path: Assets/shaders/Toto/EjericioCascada/Lake.mat
-  artifactKey: Guid(0956682d02c28bf4fbd26f691451d202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/shaders/Toto/EjericioCascada/Lake.mat using Guid(0956682d02c28bf4fbd26f691451d202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3627c47e6d9adc846ee065d6d2aa5732') in 0.014914 seconds
-Number of updated asset objects reloaded before import = 1
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 35.199286 seconds.
-  path: Assets/shaders/Toto/EjericioCascada/Lake.mat
-  artifactKey: Guid(0956682d02c28bf4fbd26f691451d202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/shaders/Toto/EjericioCascada/Lake.mat using Guid(0956682d02c28bf4fbd26f691451d202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '559e13a49768011846f14aa02ad672f6') in 0.017124 seconds
-Number of updated asset objects reloaded before import = 1
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 3.274582 seconds.
-  path: Assets/shaders/Toto/EjericioCascada/Lake.mat
-  artifactKey: Guid(0956682d02c28bf4fbd26f691451d202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/shaders/Toto/EjericioCascada/Lake.mat using Guid(0956682d02c28bf4fbd26f691451d202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4807b048d0536e998e15a34ea95df2d9') in 0.018823 seconds
-Number of updated asset objects reloaded before import = 1
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 11.385127 seconds.
-  path: Assets/shaders/Toto/EjericioCascada/Lake.mat
-  artifactKey: Guid(0956682d02c28bf4fbd26f691451d202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/shaders/Toto/EjericioCascada/Lake.mat using Guid(0956682d02c28bf4fbd26f691451d202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3964f0587fba92b7f4002293761b4d6') in 0.014954 seconds
-Number of updated asset objects reloaded before import = 1
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 3.036139 seconds.
-  path: Assets/shaders/Toto/EjericioCascada/Lake.mat
-  artifactKey: Guid(0956682d02c28bf4fbd26f691451d202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/shaders/Toto/EjericioCascada/Lake.mat using Guid(0956682d02c28bf4fbd26f691451d202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee5ca26c5a900df42fa6ab2173528c55') in 0.015337 seconds
-Number of updated asset objects reloaded before import = 1
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 56.772723 seconds.
-  path: Assets/shaders/Toto/EjericioCascada/Lake.mat
-  artifactKey: Guid(0956682d02c28bf4fbd26f691451d202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/shaders/Toto/EjericioCascada/Lake.mat using Guid(0956682d02c28bf4fbd26f691451d202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4040fcdcf50e08026bdb09be010be8ab') in 0.017022 seconds
-Number of updated asset objects reloaded before import = 1
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 12.623297 seconds.
-  path: Assets/shaders/Toto/EjericioCascada/Lake.mat
-  artifactKey: Guid(0956682d02c28bf4fbd26f691451d202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/shaders/Toto/EjericioCascada/Lake.mat using Guid(0956682d02c28bf4fbd26f691451d202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3145164e08ff75a70e244581c809d3b7') in 0.015366 seconds
-Number of updated asset objects reloaded before import = 1
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 38.817702 seconds.
-  path: Assets/shaders/Toto/EjericioCascada/Lake.mat
-  artifactKey: Guid(0956682d02c28bf4fbd26f691451d202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/shaders/Toto/EjericioCascada/Lake.mat using Guid(0956682d02c28bf4fbd26f691451d202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e35d9cd56193fb6572debbf1799c3fb3') in 0.015094 seconds
-Number of updated asset objects reloaded before import = 1
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 5.525632 seconds.
-  path: Assets/shaders/Toto/EjericioCascada/Lake.mat
-  artifactKey: Guid(0956682d02c28bf4fbd26f691451d202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/shaders/Toto/EjericioCascada/Lake.mat using Guid(0956682d02c28bf4fbd26f691451d202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c314561a1f20dc36d5c9779188c97db4') in 0.014516 seconds
-Number of updated asset objects reloaded before import = 1
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 33.529371 seconds.
-  path: Assets/shaders/Toto/EjericioCascada/Lake.mat
-  artifactKey: Guid(0956682d02c28bf4fbd26f691451d202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/shaders/Toto/EjericioCascada/Lake.mat using Guid(0956682d02c28bf4fbd26f691451d202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa6bf967465525278e1f594b454ab8cf') in 0.048135 seconds
-Number of updated asset objects reloaded before import = 1
-Number of asset objects unloaded after import = 3
+  Time since last request: 2.009520 seconds.
+  path: Assets/AmplifyShaderEditor/Examples/Built-In/PlaneClip/ClipArea.mat
+  artifactKey: Guid(4e1f60a36beb7dd43a84f5a36992494f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyShaderEditor/Examples/Built-In/PlaneClip/ClipArea.mat using Guid(4e1f60a36beb7dd43a84f5a36992494f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a08be9598bcddfb8212d7842a39f844a') in 0.257803 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: La operación de E/S se anuló por una salida de subproceso o por una solicitud de aplicación.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

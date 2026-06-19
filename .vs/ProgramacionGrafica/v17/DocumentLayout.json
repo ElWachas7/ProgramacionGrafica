@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\User\\TODO\\UNITY\\REPOSITORIOS\\ProgramacionGrafica\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\TODO\\UNITY\\REPOSITORIOS\\ProgramacionGrafica\\Assets\\shaders\\Toto\\Flag.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\shaders\\Toto\\Flag.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
+      "AbsoluteMoniker": "D:0:0:{3596BBAD-C0DC-6F32-D49B-C89E06316BC7}|Assembly-CSharp.csproj|C:\\Users\\User\\TODO\\UNITY\\REPOSITORIOS\\ProgramacionGrafica\\assets\\_scripts\\instantiateentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3596BBAD-C0DC-6F32-D49B-C89E06316BC7}|Assembly-CSharp.csproj|solutionrelative:assets\\_scripts\\instantiateentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3596BBAD-C0DC-6F32-D49B-C89E06316BC7}|Assembly-CSharp.csproj|c:\\users\\user\\todo\\unity\\repositorios\\programaciongrafica\\assets\\_scripts\\julimovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3596BBAD-C0DC-6F32-D49B-C89E06316BC7}|Assembly-CSharp.csproj|solutionrelative:assets\\_scripts\\julimovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +23,28 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Flag.shader",
-              "DocumentMoniker": "C:\\Users\\User\\TODO\\UNITY\\REPOSITORIOS\\ProgramacionGrafica\\Assets\\shaders\\Toto\\Flag.shader",
-              "RelativeDocumentMoniker": "Assets\\shaders\\Toto\\Flag.shader",
-              "ToolTip": "C:\\Users\\User\\TODO\\UNITY\\REPOSITORIOS\\ProgramacionGrafica\\Assets\\shaders\\Toto\\Flag.shader",
-              "RelativeToolTip": "Assets\\shaders\\Toto\\Flag.shader",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
-              "WhenOpened": "2026-04-10T17:00:39.326Z"
+              "Title": "InstantiateEntity.cs",
+              "DocumentMoniker": "C:\\Users\\User\\TODO\\UNITY\\REPOSITORIOS\\ProgramacionGrafica\\Assets\\_Scripts\\InstantiateEntity.cs",
+              "RelativeDocumentMoniker": "Assets\\_Scripts\\InstantiateEntity.cs",
+              "ToolTip": "C:\\Users\\User\\TODO\\UNITY\\REPOSITORIOS\\ProgramacionGrafica\\Assets\\_Scripts\\InstantiateEntity.cs",
+              "RelativeToolTip": "Assets\\_Scripts\\InstantiateEntity.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAA4wDMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T23:51:39.096Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "JuliMovement.cs",
+              "DocumentMoniker": "C:\\Users\\User\\TODO\\UNITY\\REPOSITORIOS\\ProgramacionGrafica\\Assets\\_Scripts\\JuliMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\_Scripts\\JuliMovement.cs",
+              "ToolTip": "C:\\Users\\User\\TODO\\UNITY\\REPOSITORIOS\\ProgramacionGrafica\\Assets\\_Scripts\\JuliMovement.cs",
+              "RelativeToolTip": "Assets\\_Scripts\\JuliMovement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T23:51:26.957Z",
+              "EditorCaption": ""
             }
           ]
         }
