@@ -358,6 +358,10 @@
 "Assets/shaders/Toto/ScriptsToto/PixelCam.cs"
 "Assets/_Scripts/InstantiateEntity.cs"
 "Assets/_Scripts/JuliMovement.cs"
+"Assets/_Scripts/manager/CameraEffects.cs"
+"Assets/_Scripts/manager/DistanceShader.cs"
+"Assets/_Scripts/manager/HideItemsManager.cs"
+"Assets/_Scripts/manager/ItemRotativo.cs"
 -langversion:9.0
 
 /deterministic

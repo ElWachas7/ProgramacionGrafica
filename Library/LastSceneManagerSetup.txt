@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Toto.unity
+- path: Assets/Scenes/Stencil7.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

@@ -62,7 +62,11 @@
   <ItemGroup>
     <Compile Include="Assets\_Scripts\InstantiateEntity.cs" />
     <Compile Include="Assets\shaders\Toto\ScriptsToto\PixelCam.cs" />
+    <Compile Include="Assets\_Scripts\manager\DistanceShader.cs" />
+    <Compile Include="Assets\_Scripts\manager\HideItemsManager.cs" />
     <Compile Include="Assets\_Scripts\JuliMovement.cs" />
+    <Compile Include="Assets\_Scripts\manager\CameraEffects.cs" />
+    <Compile Include="Assets\_Scripts\manager\ItemRotativo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\shaders\Toto\EjericioCascada\WaterUnlit.shader" />
@@ -105,6 +109,7 @@
     <None Include="Assets\shaders\Toto\EjericioCascada\Holograma.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
     <None Include="Assets\shaders\Toto\SEGUNDAMITAD\Flow.shader" />
+    <None Include="Assets\shaders\Toto\SEGUNDAMITAD\DistanceTest.shader" />
     <None Include="Assets\shaders\Toto\EjericioCascada\ParallaxMap.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
     <None Include="Assets\shaders\Toto\SEGUNDAMITAD\Reader.shader" />
@@ -115,6 +120,7 @@
     <None Include="Assets\shaders\Toto\SEGUNDAMITAD\Dithering.shader" />
     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
+    <None Include="Assets\_Scripts\manager\Shaders\CameraEffect.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
   </ItemGroup>
   <ItemGroup>

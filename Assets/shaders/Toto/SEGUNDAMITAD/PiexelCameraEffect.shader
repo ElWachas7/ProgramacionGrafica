@@ -114,13 +114,13 @@ Shader "PiexelCameraEffect"
 }
 /*ASEBEGIN
 Version=18900
-0;284.8;998.2;490.6;1001.653;184.584;1;True;False
+0;441.6;675;333.8;315.7583;382.7883;2.413327;False;False
 Node;AmplifyShaderEditor.ScreenPosInputsNode;2;-619.9001,-107.7;Float;False;1;False;0;5;FLOAT4;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
 Node;AmplifyShaderEditor.DynamicAppendNode;7;-417.5004,-78.09996;Inherit;False;FLOAT2;4;0;FLOAT;0;False;1;FLOAT;0;False;2;FLOAT;0;False;3;FLOAT;0;False;1;FLOAT2;0
 Node;AmplifyShaderEditor.RangedFloatNode;5;-437.5004,17.10002;Inherit;False;Property;_Pix_X;Pix_X;0;0;Create;True;0;0;0;False;0;False;256;0;0;0;0;1;FLOAT;0
 Node;AmplifyShaderEditor.RangedFloatNode;6;-433.5004,97.89998;Inherit;False;Property;_Pix_Y;Pix_Y;1;0;Create;True;0;0;0;False;0;False;256;0;0;0;0;1;FLOAT;0
-Node;AmplifyShaderEditor.TFHCPixelate;3;-244.7001,-78.09996;Inherit;False;3;0;FLOAT2;0,0;False;1;FLOAT;0;False;2;FLOAT;0;False;1;FLOAT2;0
 Node;AmplifyShaderEditor.TemplateShaderPropertyNode;8;-183.3299,-157.102;Inherit;False;0;0;_MainTex;Shader;False;0;5;SAMPLER2D;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
+Node;AmplifyShaderEditor.TFHCPixelate;3;-244.7001,-78.09996;Inherit;False;3;0;FLOAT2;0,0;False;1;FLOAT;0;False;2;FLOAT;0;False;1;FLOAT2;0
 Node;AmplifyShaderEditor.SamplerNode;9;-4.9076,-103.4506;Inherit;True;Property;_TextureSample0;Texture Sample 0;2;0;Create;True;0;0;0;False;0;False;-1;None;None;True;0;False;white;Auto;False;Object;-1;Auto;Texture2D;8;0;SAMPLER2D;;False;1;FLOAT2;0,0;False;2;FLOAT;0;False;3;FLOAT2;0,0;False;4;FLOAT2;0,0;False;5;FLOAT;1;False;6;FLOAT;0;False;7;SAMPLERSTATE;;False;5;COLOR;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
 Node;AmplifyShaderEditor.TemplateMultiPassMasterNode;1;531.9377,-95.78001;Float;False;True;-1;2;ASEMaterialInspector;0;2;PiexelCameraEffect;c71b220b631b6344493ea3cf87110c93;True;SubShader 0 Pass 0;0;0;SubShader 0 Pass 0;1;False;False;False;False;False;False;False;False;False;False;False;False;False;False;True;2;False;-1;False;False;False;False;False;False;False;False;False;False;False;True;2;False;-1;True;7;False;-1;False;True;0;False;0;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;True;2;0;;0;0;Standard;0;0;1;True;False;;False;0
 WireConnection;7;0;2;1
@@ -132,4 +132,4 @@ WireConnection;9;0;8;0
 WireConnection;9;1;3;0
 WireConnection;1;0;9;0
 ASEEND*/
-//CHKSM=93F14E1531EE83867D3AC1A5D0E02A74DAA831C7
+//CHKSM=279D00E5A1E3A920E7A7E6697D535E6382FFD912
