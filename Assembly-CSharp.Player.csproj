@@ -62,10 +62,12 @@
   <ItemGroup>
     <Compile Include="Assets\_Scripts\InstantiateEntity.cs" />
     <Compile Include="Assets\shaders\Toto\ScriptsToto\PixelCam.cs" />
+    <Compile Include="Assets\CameraRotator.cs" />
     <Compile Include="Assets\_Scripts\manager\DistanceShader.cs" />
     <Compile Include="Assets\_Scripts\manager\HideItemsManager.cs" />
     <Compile Include="Assets\_Scripts\JuliMovement.cs" />
     <Compile Include="Assets\_Scripts\manager\CameraEffects.cs" />
+    <Compile Include="Assets\_Scripts\manager\PlayerMovement.cs" />
     <Compile Include="Assets\_Scripts\manager\ItemRotativo.cs" />
   </ItemGroup>
   <ItemGroup>

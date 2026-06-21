@@ -3,7 +3,15 @@
   "WorkspaceRootPath": "C:\\Users\\User\\TODO\\UNITY\\REPOSITORIOS\\ProgramacionGrafica\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3596BBAD-C0DC-6F32-D49B-C89E06316BC7}|Assembly-CSharp.csproj|c:\\users\\user\\todo\\unity\\repositorios\\programaciongrafica\\assets\\_scripts\\manager\\itemrotativo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3596BBAD-C0DC-6F32-D49B-C89E06316BC7}|Assembly-CSharp.csproj|c:\\users\\user\\todo\\unity\\repositorios\\programaciongrafica\\assets\\_scripts\\manager\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3596BBAD-C0DC-6F32-D49B-C89E06316BC7}|Assembly-CSharp.csproj|solutionrelative:assets\\_scripts\\manager\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3596BBAD-C0DC-6F32-D49B-C89E06316BC7}|Assembly-CSharp.csproj|c:\\users\\user\\todo\\unity\\repositorios\\programaciongrafica\\assets\\_scripts\\manager\\cameraeffects.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3596BBAD-C0DC-6F32-D49B-C89E06316BC7}|Assembly-CSharp.csproj|solutionrelative:assets\\_scripts\\manager\\cameraeffects.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3596BBAD-C0DC-6F32-D49B-C89E06316BC7}|Assembly-CSharp.csproj|C:\\Users\\User\\TODO\\UNITY\\REPOSITORIOS\\ProgramacionGrafica\\assets\\_scripts\\manager\\itemrotativo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3596BBAD-C0DC-6F32-D49B-C89E06316BC7}|Assembly-CSharp.csproj|solutionrelative:assets\\_scripts\\manager\\itemrotativo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -23,6 +31,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "PlayerMovement.cs",
+              "DocumentMoniker": "C:\\Users\\User\\TODO\\UNITY\\REPOSITORIOS\\ProgramacionGrafica\\Assets\\_Scripts\\manager\\PlayerMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\_Scripts\\manager\\PlayerMovement.cs",
+              "ToolTip": "C:\\Users\\User\\TODO\\UNITY\\REPOSITORIOS\\ProgramacionGrafica\\Assets\\_Scripts\\manager\\PlayerMovement.cs",
+              "RelativeToolTip": "Assets\\_Scripts\\manager\\PlayerMovement.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBgAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-21T18:25:12.561Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CameraEffects.cs",
+              "DocumentMoniker": "C:\\Users\\User\\TODO\\UNITY\\REPOSITORIOS\\ProgramacionGrafica\\Assets\\_Scripts\\manager\\CameraEffects.cs",
+              "RelativeDocumentMoniker": "Assets\\_Scripts\\manager\\CameraEffects.cs",
+              "ToolTip": "C:\\Users\\User\\TODO\\UNITY\\REPOSITORIOS\\ProgramacionGrafica\\Assets\\_Scripts\\manager\\CameraEffects.cs",
+              "RelativeToolTip": "Assets\\_Scripts\\manager\\CameraEffects.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAADwvzMAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-20T18:41:31.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "ItemRotativo.cs",
               "DocumentMoniker": "C:\\Users\\User\\TODO\\UNITY\\REPOSITORIOS\\ProgramacionGrafica\\Assets\\_Scripts\\manager\\ItemRotativo.cs",
               "RelativeDocumentMoniker": "Assets\\_Scripts\\manager\\ItemRotativo.cs",
@@ -30,12 +64,11 @@
               "RelativeToolTip": "Assets\\_Scripts\\manager\\ItemRotativo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-20T16:46:46.887Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-20T16:46:46.887Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "HideItemsManager.cs",
               "DocumentMoniker": "C:\\Users\\User\\TODO\\UNITY\\REPOSITORIOS\\ProgramacionGrafica\\Assets\\_Scripts\\manager\\HideItemsManager.cs",
               "RelativeDocumentMoniker": "Assets\\_Scripts\\manager\\HideItemsManager.cs",

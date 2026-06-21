@@ -28,7 +28,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainText:
-        m_Texture: {fileID: 2800000, guid: 80ab37a9e4f49c842903bb43bdd7bcd2, type: 3}
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample1:
+        m_Texture: {fileID: 2800000, guid: 859e137933632ac44b6e582deec92e36, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _texcoord:
@@ -37,6 +41,25 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _Apertura: 0.9
+    - _CenterEyeFish: 0.5
+    - _FadeEnd: 0.39
+    - _FadeStart: 0.6
+    - _FishEye: 3
+    - _FishEyePower: 0.57
+    - _FishEyeStrenght: 0.5
+    - _FishEyeStrength: 0.5
+    - _FishEyeZoom: 3
+    - _Float2: 0
+    - _Frequency1: 1
+    - _GrainyContrast: 0.69
+    - _GrainyIntensity: 0.44
+    - _GrainyPopulation: 0.59
+    - _GrainyScale: 300
+    - _Granulado: 300
+    - _LinearSpeed1: 1
+    - _Radius: 0.5
+    - _TimeSpeed: 1.6
     - _radius: 0.39
     m_Colors:
     - _Center: {r: 0.5, g: 0.5, b: 0, a: 0}
